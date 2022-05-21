@@ -29,7 +29,7 @@ component CSAWebArtifacts [0.64, 0.24]
 
 component Circle [0.57, 0.38]
 // Notes: requires free account
-// SEO: not great
+// SEO: N/A
 // Conclusion: WG activity, content if linked from oe.g. Twitter but high friction
 
 component CSAMarketingEmail [0.81, 0.41]
