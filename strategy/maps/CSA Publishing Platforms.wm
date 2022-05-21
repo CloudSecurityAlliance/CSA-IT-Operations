@@ -1,0 +1,60 @@
+title CSA Data Platforms
+
+component User [0.98, 0.44]
+
+component BusinessWire [0.47, 0.11]
+// Notes: business oriented 
+// SEO: N/A
+// Conclusion: formal anouncements of major things
+
+component Twitter [0.91, 0.49]
+// Notes: highly temporal
+// SEO: use hashtags, be timely, reply to the right people
+// Conclusion: use for announcement
+
+component CSAWebsite [0.65, 0.45]
+// Notes: Use sparingly
+// SEO: Content, very good
+// Conclusion: Formal content
+
+component CSABlog [0.72, 0.50]
+// Notes: semi temporal (high turnover, permanent links)
+// SEO: Content, very good
+// Conclusion: Formal content, announcement
+
+component CSAWebArtifacts [0.64, 0.24] 
+// Notes: generally larger artifacts, formal process
+// SEO: Content, very good
+// Conclusion: Formal content, WG artifacts
+
+component Circle [0.57, 0.38]
+// Notes: requires free account
+// SEO: not great
+// Conclusion: WG activity, content if linked from oe.g. Twitter but high friction
+
+component CSAMarketingEmail [0.81, 0.41]
+// Notes: push, requires previous opt-in
+// Conclusion: announcements  
+
+component CSAWGEmail [0.16, 0.14]
+// Notes: push, requires previous opt-in, high degree of interest
+// Conclusion: WG activity, internal pre announcements
+
+component CSAPodcast [0.51, 0.27]
+// Notes: audio
+// Conclusion: podcast content, more formal
+
+component GitHub [0.27, 0.37]
+// Notes: 
+// SEO: not great
+// Conclusion: use for WG, not a great publishign platform outside of specific technical cases
+
+component GoogleDrive [0.15, 0.25] label [5, -10]
+// Notes: good for feedback (allow comments) but can result in abuse
+// SEO: N/A
+// Conclusion: working content, not great for publishing
+
+component Microsoft365 [0.12, 0.29]
+// Notes: good for feedback (allow comments) but can result in abuse
+// SEO: N/A
+// Conclusion: working content, not great for publishing
