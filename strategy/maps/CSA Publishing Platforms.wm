@@ -36,7 +36,7 @@ component CSAMarketingEmail [0.81, 0.41]
 // Notes: push, requires previous opt-in
 // Conclusion: announcements  
 
-component CSAWGEmail [0.16, 0.14]
+component CSAWGEmail [0.22, 0.14]
 // Notes: push, requires previous opt-in, high degree of interest
 // Conclusion: WG activity, internal pre announcements
 
@@ -54,17 +54,18 @@ component GoogleDrive [0.15, 0.25]
 // SEO: N/A
 // Conclusion: working content for individuals, not great for publishing
 
-component GoogleTeamDrive [0.21, 0.25]
+component GoogleTeamDrive [0.15, 0.30]
 // Notes: good for feedback (allow comments) but can result in abuse
 // SEO: N/A
 // Conclusion: working content, not great for publishing
 
-component Microsoft365 [0.12, 0.29]
+component Microsoft365 [0.08, 0.31]
 // Notes: good for feedback (allow comments) but can result in abuse
 // SEO: N/A
 // Conclusion: working content for individuals, not great for publishing
 
-component Microsoft365SharePoint [022, 0.29]
+component Microsoft365SharePoint [0.08, 0.36]
 // Notes: good for feedback (allow comments) but can result in abuse
 // SEO: N/A
 // Conclusion: working content, not great for publishing
+
