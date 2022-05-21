@@ -1,4 +1,4 @@
-title CSA Data Platforms
+ title CSA Data Platforms
 
 component User [0.98, 0.44]
 
@@ -49,12 +49,22 @@ component GitHub [0.27, 0.37]
 // SEO: not great
 // Conclusion: use for WG, not a great publishign platform outside of specific technical cases
 
-component GoogleDrive [0.15, 0.25] label [5, -10]
+component GoogleDrive [0.15, 0.25]
+// Notes: good for feedback (allow comments) but can result in abuse
+// SEO: N/A
+// Conclusion: working content for individuals, not great for publishing
+
+component GoogleTeamDrive [0.21, 0.25]
 // Notes: good for feedback (allow comments) but can result in abuse
 // SEO: N/A
 // Conclusion: working content, not great for publishing
 
 component Microsoft365 [0.12, 0.29]
+// Notes: good for feedback (allow comments) but can result in abuse
+// SEO: N/A
+// Conclusion: working content for individuals, not great for publishing
+
+component Microsoft365SharePoint [022, 0.29]
 // Notes: good for feedback (allow comments) but can result in abuse
 // SEO: N/A
 // Conclusion: working content, not great for publishing
