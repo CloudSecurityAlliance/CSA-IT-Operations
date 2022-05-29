@@ -33,10 +33,3 @@ Example 2: Data Backups of Google (Email/Drive) and Microsoft365 and Salesforce,
 
 Cloud services that don't allow collaboration (e.g. data sharing/editing) are preferred. The CSA is individuals working together, so we need to ensure we pick technologies that let people work together.
 
-## Use different cloud providers for different functions/privilege levels
-
-We use a variety of different cloud providers for one simple reason: core stuff like the main website, CCSK, CCAK, STAR and so on MUST work. We also provide nice to have stuff like chapters and the Global Security Database infrastructure at widely different providers, this way if a chaopter member or volunteer does something especially silly (like post copyrighted material onto the site) there won't be any blowback that affects the main sites.
-
-## Use different domains for different functions/privilege levels
-
-In line with the above cloudsecurityalliance.org is reserved for core CSA work, with most groups being obviously hosted on the group.cloudsecurityalliance.org subdomain for example. We also use csachapter.io to provide email services to various CSA chapters, again this way any silliness won't affect our main email domains.
