@@ -1,8 +1,8 @@
 ```mermaid
 graph LR
 Account(Account)
-UserNamePasswordandMFA -->|loginvia|WorkEmailAddress[CSAEmailAddress]
-PhoneNumber -->|recover|EmailAddress[WorkEmailAddress]
+UserNamePasswordandMFA -->|loginvia|WorkEmailAddress[WorkEmailAddress]
+PhoneNumber -->|recover|WorkEmailAddress[WorkEmailAddress]
 OtherEmailAddress -->|recover|WorkEmailAddress[WorkEmailAddress]
 WorkRecoveryCode -->|recover|WorkEmailAddress[WorkEmailAddress]
 Attacker -->|SimSWAP|PhoneNumber[PhoneNumber]
