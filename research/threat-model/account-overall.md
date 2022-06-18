@@ -11,3 +11,6 @@ Attacker -->|Compromise|PersonalEmailAddress[PersonalEmailAddress]
 Attacker  -->|Phish|PersonalEmailAddress[PersonalEmailAddress]
 Attacker -->|Compromise|WorkRecoveryCode[WorkRecoveryCode]
 
+WorkEmailAddress -->|UsedOn|Computer[Computer]
+WorkEmailAddress -->|UsedOn|MobileDevice[MobileDevice]
+WorkEmailAddress -->|SSOFor|OtherServices[OtherServices]
