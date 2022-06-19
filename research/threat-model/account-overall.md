@@ -16,6 +16,8 @@ PersonalPhoneNumber -->|recover|PersonaliCloud[PersonaliCloud]
 Attacker -->|SimSWAP|PersonalPhoneNumber[PersonalPhoneNumber]
 Attacker -->|DiscoverViaEmailSignature|PersonalPhoneNumber[PersonalPhoneNumber]
 
+Attacker -->|DiscoverViaSearch|PersonalEmailAddress[PersonalEmailAddress]
+
 Attacker -->|Compromise|PersonalEmailAddress[PersonalEmailAddress]
 Attacker -->|PhishPassword|PersonalEmailAddress[PersonalEmailAddress]
 
