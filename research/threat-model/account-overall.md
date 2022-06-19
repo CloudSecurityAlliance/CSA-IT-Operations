@@ -9,6 +9,10 @@ PersonalPhoneNumber -->|recover|CSAGmailAddress[CSAGmailAddress]
 PersonalEmailAddress -->|recover|CSAGmailAddress[CSAGmailAddress]
 CSAGmailRecoveryCode -->|recover|CSAGmailAddress[CSAGmailAddress]
 
+PersonaliCloud -->|Controls|Computer[Computer]
+PersonaliCloud -->|Controls|MobileDevice[MobileDevice]
+PersonalPhoneNumber -->|recover|PersonaliCloud[PersonaliCloud]
+
 Attacker -->|SimSWAP|PersonalPhoneNumber[PersonalPhoneNumber]
 Attacker -->|DiscoverViaEmailSignature|PersonalPhoneNumber[PersonalPhoneNumber]
 
@@ -27,4 +31,5 @@ CSAGmailAddress -->|SSOFor|Zoom[Zoom]
 
 UserNamePasswordandMFA -->|loginvia|CSAMicrosoft365[CSAMicrosoft365]
 UserNamePasswordandMFA -->|loginvia|CSA1Password[CSA1Password]
+
 
