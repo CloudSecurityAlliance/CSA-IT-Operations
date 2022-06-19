@@ -10,8 +10,11 @@ PersonalEmailAddress -->|recover|CSAGmailAddress[CSAGmailAddress]
 CSAGmailRecoveryCode -->|recover|CSAGmailAddress[CSAGmailAddress]
 
 Attacker -->|SimSWAP|PersonalPhoneNumber[PersonalPhoneNumber]
+Attacker -->|DiscoverViaEmailSignature|PersonalPhoneNumber[PersonalPhoneNumber]
+
 Attacker -->|Compromise|PersonalEmailAddress[PersonalEmailAddress]
-Attacker  -->|Phish|PersonalEmailAddress[PersonalEmailAddress]
+Attacker  -->|PhishPassword|PersonalEmailAddress[PersonalEmailAddress]
+
 Attacker -->|Compromise|CSAGmailRecoveryCode[CSAGmailRecoveryCode]
 
 CSAGmailAddress -->|UsedOn|Computer[Computer]
