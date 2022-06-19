@@ -1,8 +1,8 @@
 ```mermaid
 %% Basic threat model for a CSA accounts
 %% Gmail, 1Password, Microsoft365, Zoom, Slack
+%% Personal iCloud and email address
 graph LR
-Account(Account)
 
 UserNamePasswordandMFA -->|loginvia|CSAGmailAddress[CSAGmailAddress]
 PersonalPhoneNumber -->|recover|CSAGmailAddress[CSAGmailAddress]
