@@ -1,5 +1,6 @@
 ```mermaid
 %% Basic threat model for a CSA accounts
+%% Gmail, 1Password, Microsoft365, Zoom, Slack
 graph LR
 Account(Account)
 
@@ -15,7 +16,8 @@ Attacker -->|Compromise|CSAGmailRecoveryCode[CSAGmailRecoveryCode]
 
 CSAGmailAddress -->|UsedOn|Computer[Computer]
 CSAGmailAddress -->|UsedOn|MobileDevice[MobileDevice]
-CSAGmailAddress -->|SSOFor|OtherServices[OtherServices]
+CSAGmailAddress -->|SSOFor|Slack[Slack]
+CSAGmailAddress -->|SSOFor|Zoom[Zoom]
 
 UserNamePasswordandMFA -->|loginvia|CSAMicrosoft365[CSAMicrosoft365]
 UserNamePasswordandMFA -->|loginvia|CSA1Password[CSA1Password]
