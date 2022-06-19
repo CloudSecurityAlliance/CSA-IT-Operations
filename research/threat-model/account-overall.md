@@ -13,9 +13,12 @@ Attacker -->|SimSWAP|PersonalPhoneNumber[PersonalPhoneNumber]
 Attacker -->|DiscoverViaEmailSignature|PersonalPhoneNumber[PersonalPhoneNumber]
 
 Attacker -->|Compromise|PersonalEmailAddress[PersonalEmailAddress]
-Attacker  -->|PhishPassword|PersonalEmailAddress[PersonalEmailAddress]
+Attacker -->|PhishPassword|PersonalEmailAddress[PersonalEmailAddress]
 
 Attacker -->|Compromise|CSAGmailRecoveryCode[CSAGmailRecoveryCode]
+
+Attacker -->|MaliciousEMailorDoc|Computer[Computer]
+Attacker -->|MaliciousEMailorDoc|MobileDevice[MobileDevice]
 
 CSAGmailAddress -->|UsedOn|Computer[Computer]
 CSAGmailAddress -->|UsedOn|MobileDevice[MobileDevice]
