@@ -4,10 +4,14 @@
 %% Personal iCloud and email address
 graph LR
 
-UserNamePasswordandMFA -->|loginvia|CSAGmailAddress[CSAGmailAddress]
-PersonalPhoneNumber -->|recover|CSAGmailAddress[CSAGmailAddress]
-PersonalEmailAddress -->|recover|CSAGmailAddress[CSAGmailAddress]
-CSAGmailRecoveryCode -->|recover|CSAGmailAddress[CSAGmailAddress]
+UserNamePasswordandMFA -->|loginvia|CSAGmailAccount[CSAGmailAccount]
+PersonalPhoneNumber -->|recover|CSAGmailAccount[CSAGmailAccount]
+PersonalEmailAddress -->|recover|CSAGmailAccount[CSAGmailAccount]
+CSAGmailRecoveryCode -->|recover|CSAGmailAccount[CSAGmailAccount]
+
+UserNamePasswordandMFA -->|loginvia|CSAMicrosoft365[CSAMicrosoft365]
+PersonalPhoneNumber -->|recover|CSAMicrosoft365[CSAMicrosoft365]
+PersonalEmailAddress -->|recover|CSAMicrosoft365[CSAMicrosoft365]
 
 PersonaliCloud -->|Controls|Computer[Computer]
 PersonaliCloud -->|Controls|MobileDevice[MobileDevice]
@@ -32,12 +36,10 @@ Attacker -->|MaliciousEMailorDoc|Computer[Computer]
 Attacker -->|MaliciousEMailorDoc|MobileDevice[MobileDevice]
 %% Is there a good AV solution beyond Microsoft Defender?
 
-CSAGmailAddress -->|UsedOn|Computer[Computer]
-CSAGmailAddress -->|UsedOn|MobileDevice[MobileDevice]
-CSAGmailAddress -->|SSOFor|Slack[Slack]
-CSAGmailAddress -->|SSOFor|Zoom[Zoom]
+CSAGmailAccount -->|UsedOn|Computer[Computer]
+CSAGmailAccount -->|UsedOn|MobileDevice[MobileDevice]
+CSAGmailAccount -->|SSOFor|Slack[Slack]
+CSAGmailAccount -->|SSOFor|Zoom[Zoom]
 
 UserNamePasswordandMFA -->|loginvia|CSAMicrosoft365[CSAMicrosoft365]
 UserNamePasswordandMFA -->|loginvia|CSA1Password[CSA1Password]
-
-
