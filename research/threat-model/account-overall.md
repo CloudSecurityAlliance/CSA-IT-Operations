@@ -1,16 +1,22 @@
 ```mermaid
+%% Basic threat model for a CSA accounts
 graph LR
 Account(Account)
 
-UserNamePasswordandMFA -->|loginvia|WorkEmailAddress[WorkEmailAddress]
-PhoneNumber -->|recover|WorkEmailAddress[WorkEmailAddress]
-PersonalEmailAddress -->|recover|WorkEmailAddress[WorkEmailAddress]
-WorkRecoveryCode -->|recover|WorkEmailAddress[WorkEmailAddress]
-Attacker -->|SimSWAP|PhoneNumber[PhoneNumber]
+UserNamePasswordandMFA -->|loginvia|CSAGmailAddress[CSAGmailAddress]
+PersonalPhoneNumber -->|recover|CSAGmailAddress[CSAGmailAddress]
+PersonalEmailAddress -->|recover|CSAGmailAddress[CSAGmailAddress]
+CSAGmailRecoveryCode -->|recover|CSAGmailAddress[CSAGmailAddress]
+
+Attacker -->|SimSWAP|PersonalPhoneNumber[PersonalPhoneNumber]
 Attacker -->|Compromise|PersonalEmailAddress[PersonalEmailAddress]
 Attacker  -->|Phish|PersonalEmailAddress[PersonalEmailAddress]
-Attacker -->|Compromise|WorkRecoveryCode[WorkRecoveryCode]
+Attacker -->|Compromise|CSAGmailRecoveryCode[CSAGmailRecoveryCode]
 
-WorkEmailAddress -->|UsedOn|Computer[Computer]
-WorkEmailAddress -->|UsedOn|MobileDevice[MobileDevice]
-WorkEmailAddress -->|SSOFor|OtherServices[OtherServices]
+CSAGmailAddress -->|UsedOn|Computer[Computer]
+CSAGmailAddress -->|UsedOn|MobileDevice[MobileDevice]
+CSAGmailAddress -->|SSOFor|OtherServices[OtherServices]
+
+UserNamePasswordandMFA -->|loginvia|CSAMicrosoft365[CSAMicrosoft365]
+UserNamePasswordandMFA -->|loginvia|CSA1Password[CSA1Password]
+
