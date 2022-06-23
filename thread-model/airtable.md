@@ -1,5 +1,7 @@
 # Threat model for airtable.com
 
+Original map as PNG (from Miro)
+
 ```mermaid
 graph LR
 
