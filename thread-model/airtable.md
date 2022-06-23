@@ -4,22 +4,22 @@
 graph LR
 
 SSO -->|prevents|AccountHijacking[Account_Hijacking]
-AccountHijacking -->|results_in|Alteration_or_deletion_of_data[Alterationordeletionofdata]
-AccountHijacking -->|results_in|Export_of_sensitive_data[Exportofsensitivedata]
+AccountHijacking -->|results_in|[Alteration_or_deletion_of_data]
+AccountHijacking -->|results_in|[Export_of_sensitive_data]
 
-Alterationordeletionofdata -->|compromises|AirtableData[Airtable_Data]
-Exportofsensitivedata -->|compromises|AirtableData[Airtable_Data]
+Alterationordeletionofdata -->|compromises|[Airtable_Data]
+Exportofsensitivedata -->|compromises|[Airtable_Data]
 
-User_Education -->|prevents|AccidentalMisuse[Accidental_Misuse]
-AccidentalMisuse -->|results_in|Alteration_or_deletion_of_data[Alterationordeletionofdata]
-AccidentalMisuse -->|results_in|Export_of_sensitive_data[Exportofsensitivedata]
+User_Education -->|prevents|[Accidental_Misuse]
+AccidentalMisuse -->|results_in|[Alteration_or_deletion_of_data]
+AccidentalMisuse -->|results_in|[Export_of_sensitive_data]
 
-AttackerBreaksIntoAirtable -->|results_in|Alteration_or_deletion_of_data[Alterationordeletionofdata]
-AttackerBreaksIntoAirtable -->|results_in|Export_of_sensitive_data[Exportofsensitivedata]
+AttackerBreaksIntoAirtable -->|results_in|[Alteration_or_deletion_of_data]
+AttackerBreaksIntoAirtable -->|results_in|[Export_of_sensitive_data]
 
 Leastprivilegemodel
-Leastprivilegemodel -->|prevents|Alteration_or_deletion_of_data[Alterationordeletionofdata]
-Leastprivilegemodel -->|prevents|Export_of_sensitive_data[Exportofsensitivedata]
-Leastprivilegemodel -->|prevents|AccidentalMisuse[Accidental_Misuse]
+Leastprivilegemodel -->|prevents|[Alteration_or_deletion_of_data]
+Leastprivilegemodel -->|prevents|[Export_of_sensitive_data]
+Leastprivilegemodel -->|prevents|[Accidental_Misuse]
 
 ```
