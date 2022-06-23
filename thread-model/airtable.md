@@ -4,22 +4,22 @@
 graph LR
 
 SSO -->|prevents|AccountHijackingAccount_Hijacking[Account_Hijacking]
-AccountHijacking -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
-AccountHijacking -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
+Account_Hijacking -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
+Account_Hijacking -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
 
-Alterationordeletionofdata -->|compromises|Airtable_Data[Airtable_Data]
-Exportofsensitivedata -->|compromises|Airtable_Data[Airtable_Data]
+Alteration_or_deletion_of_data -->|compromises|Airtable_Data[Airtable_Data]
+Export_of_sensitive_data -->|compromises|Airtable_Data[Airtable_Data]
 
 User_Education -->|prevents|Accidental_Misuse[Accidental_Misuse]
-AccidentalMisuse -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
-AccidentalMisuse -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
+Accidental_Misuse -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
+Accidental_Misuse -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
 
-AttackerBreaksIntoAirtable -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
-AttackerBreaksIntoAirtable -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
+Attacker_Breaks_Into_Airtable -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
+Attacker_Breaks_Into_Airtable -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
 
-Leastprivilegemodel
-Leastprivilegemodel -->|prevents|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
-Leastprivilegemodel -->|prevents|Export_of_sensitive_data[Export_of_sensitive_data]
-Leastprivilegemodel -->|prevents|Accidental_Misuse[Accidental_Misuse]
+
+Least_privilege_model -->|prevents|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
+Least_privilege_model -->|prevents|Export_of_sensitive_data[Export_of_sensitive_data]
+Least_privilege_model -->|prevents|Accidental_Misuse[Accidental_Misuse]
 
 ```
