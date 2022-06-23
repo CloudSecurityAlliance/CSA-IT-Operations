@@ -17,9 +17,24 @@ Accidental_Misuse -->|results_in|Export_of_sensitive_data[Export_of_sensitive_da
 Attacker_Breaks_Into_Airtable -->|results_in|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
 Attacker_Breaks_Into_Airtable -->|results_in|Export_of_sensitive_data[Export_of_sensitive_data]
 
-
 Least_privilege_model -->|prevents|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
 Least_privilege_model -->|prevents|Export_of_sensitive_data[Export_of_sensitive_data]
 Least_privilege_model -->|prevents|Accidental_Misuse[Accidental_Misuse]
 
+Log_monitoring -->|detects|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
+Backups -->|remediate|Alteration_or_deletion_of_data[Alteration_or_deletion_of_data]
+
+Airtable_defaults_to_open -->|prevents|Least_privilege_model[Least_privilege_model]
+Least_privilege_model -->|prevents|Sharing_and_adhoc_workgroups[Sharing_and_adhoc_workgroups]
+
+Airtable_culture_of_sharing -->|enables|Sharing_and_adhoc_workgroups[Sharing_and_adhoc_workgroups]
+Airtable_culture_of_sharing -->|prevents|Least_privilege_model[Least_privilege_model]
 ```
+
+# What we've learned from the threat model
+
+## Airtable can be made secure but this will impact functionality
+
+Airtable is designed to support and enable adhoc work/groups/mashups with access to data across groups. In general the product has made choices that prize collaboration and adhoc data sharing over security. You can lock it down with a least privilege model but this will heavily impact the usability.
+
+
