@@ -66,7 +66,7 @@ Ideally you want 100% coverage, reporting to an automated system, and ultimately
 
 ## BIMI
 
-Once you have completely locked down SPF/DKIM/DMARC you can get a BIMI logo. Use https://bimigroup.org/bimi-generator/ to check to see how ready a domain is for BIMI deployment.
+Once you have completely locked down SPF/DKIM/DMARC you can get a BIMI logo. Use https://bimigroup.org/bimi-generator/ to check to see how ready a domain is for BIMI deployment. The basic process is you must have a registered trademark, that trademark must be associated with the name and the domain name, you then get a public notary to witness you signing some papers that say you're allowed to do this on behalf of the organization (so e.g. getting sign off via email from the CEO is a simple way to do this) and that's about it.
 
 # Onboarding new email services
 
