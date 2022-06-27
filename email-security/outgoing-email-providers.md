@@ -56,6 +56,10 @@ To check your SPF records for correctness you can use https://www.dmarcanalyzer.
 
 Each service will have a different DKIM setup. Google "DKIM Setup servicename" and hope they have it clearly documented. If a service doesn't support DKIM it will need to be moved to a subdomain so that risk of spoofed email is minimized.
 
+For example the CSA uses: ```"v=DMARC1; p=reject; sp=reject; rua=mailto:9zr29qlm94@rua.powerdmarc.com; ruf=mailto:9zr29qlm94@ruf.powerdmarc.com; pct=100; fo=1; aspf=s; adkim=s;"```
+
+Which specifies a policy of reject, a policy on subdomains of reject, a percent of coverage of 100%, reporting (fo) if either SPF or DKIM fail, and strict alignment mode for both SPF and DKIM.
+
 ## DMARC
 
 Ideally you want 100% coverage, reporting to an automated system, and ultimately a policy of reject. aspf and adkim should be strict.
