@@ -30,7 +30,7 @@ You can setup a CSA specific GitHub ID to use, but since we use organizations an
 
 In general we advise you to use your own account for GitHub activity.
 
-# Microsoft
+## Microsoft
 
 Microsoft currently encourages but does not require a Microsoft account for your device (e.g. laptop/desktop).
 
