@@ -36,6 +36,10 @@ You can setup a CSA specific Microsoft account to use (ideally your work account
 
 In general we advise you to use your own Microsoft account for activating and using the App store on your laptop, desktop, etc.
 
+## Twitter / Facebook / Linkedin
+
+In general if you need to do social media or otherwise interact with social media sites (e.g. Linkedin professional groups) it is generally accepted that you use your own account. However if you really want to separate your private and work life you may setup a CSA specific account for your CSA work.
+
 ## 1Password and other password managers
 
 The CSA provides 1Password, the enterprise level includes a free family account. Please use the CSA 1Password for all CSA material, and if you wish you may use the provided family account for your personal stuff (the CSA has no access to it), additionally once you leave the CSA the famnily account will become read only (so you can continue to use it to log into things), and you can choose to pay the subscription fee if you want to fully use it.
