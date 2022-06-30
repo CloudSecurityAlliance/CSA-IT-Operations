@@ -37,3 +37,9 @@ Microsoft currently encourages but does not require a Microsoft account for your
 You can setup a CSA specific Microsoft account to use (ideally your work account), but this means things like your personal messages may not work on the device. Also any apps purchased in your account will no longer be available when you leave the CSA.
 
 In general we advise you to use your own Microsoft account for activating and using the App store on your laptop, desktop, etc.
+
+## 1Password and other password managers
+
+The CSA provides 1Password, the enterprise level includes a free family account. Please use the CSA 1Password for all CSA material, and if you wish you may use the provided family account for your personal stuff (the CSA has no access to it), additionally once you leave the CSA the famnily account will become read only (so you can continue to use it to log into things), and you can choose to pay the subscription fee if you want to fully use it.
+
+If you already use a different password manager for your personal stuff you can safely ignore the 1Password family account.
