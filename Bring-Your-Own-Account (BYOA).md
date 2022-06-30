@@ -36,7 +36,7 @@ You can setup a CSA specific Microsoft account to use (ideally your work account
 
 In general we advise you to use your own Microsoft account for activating and using the App store on your laptop, desktop, etc.
 
-## Twitter / Facebook / Linkedin
+## Twitter / Facebook / Linkedin / Social Media
 
 In general if you need to do social media or otherwise interact with social media sites (e.g. Linkedin professional groups) it is generally accepted that you use your own account. However if you really want to separate your private and work life you may setup a CSA specific account for your CSA work.
 
