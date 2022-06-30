@@ -2,9 +2,7 @@
 
 In general the CSA provides accounts for Google, Microsoft365, etc. However there are some situations and services where BYOA is more appropriate.
 
-One common case is hardware devices like phones and tablets which require an account so that the App store and so on can be used.
-
-# BYOA 
+In conjunction with Bring Your Own Device (BYOD), hardware devices like phones and tablets commonly require an account, in many cases this is best served by using your own account (so that things like iMessage and the app store work as expected).
 
 ## Android devices / Google account
 
