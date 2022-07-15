@@ -6,6 +6,7 @@ flowchart LR
 %% Actors ([])
 %% Assets [[]]
 %% Actions {{}}
+%% Cultural (())
 
   %% Standard actors
   CSAUser([CSA user])
@@ -27,5 +28,8 @@ flowchart LR
   BreaksintoServiceVendor{{Breaks into Service vendor}}
   AlterationDeletionofData{{Alteration or deletion of data}}
   ExportofsensitiveData{{Export of sensitive data}}
+  
+  %% Cultural
+  CultureOfSharing((Culture of sharing))
   
 ```
