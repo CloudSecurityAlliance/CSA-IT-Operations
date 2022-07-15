@@ -20,6 +20,8 @@ flowchart LR
   PIIData[[PII data]]
   LogFiles[[Log Files]]
   Backups[[Backups]]
+  Accounts[[Accounts]]
+  AdminAccount[[Admin account]]
   
   %% Standard actions
   AccountHijacking{{Account hijacking}}
