@@ -22,3 +22,7 @@ Yes, they are licensed under CC0 1.0 Universal (as is this whole repo)
 4. Fill out the template
 
 Regarding the Mermaid diagrams I think it might be better to skip that and just use Miro, it's much easier to discuss changes and it supports multiple media types.
+
+## Future direction
+
+Tooling, using Iriusrisk and Open Threat Model https://github.com/iriusrisk/OpenThreatModel possibly?
