@@ -17,7 +17,9 @@ linking
 
 ## Other services
 
+* Circle
 * Google Drive
 * Google Calendar
 * Microsoft365
 * Salesforce
+* ZenDesk
