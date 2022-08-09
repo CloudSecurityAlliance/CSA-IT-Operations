@@ -2,13 +2,13 @@
 
 ```mermaid
 flowchart LR
-    BGP
-    DNS Name servers
-    DNS Content
-    User - Email Address
-    User - Social media
-    User - Service provider
-    Admin - Social media
-    Admin - Service provider
+    [BGP]
+    [DNS Name servers]
+    [DNS Content]
+    [User - Email Address]
+    [User - Social media]
+    [User - Service provider]
+    [Admin - Social media]
+    [Admin - Service provider]
     
 ```
