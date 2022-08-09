@@ -2,10 +2,10 @@
 
 ```mermaid
 graph TD;
-    A;
-    B;
-    C;
-    D;
+    [A];
+    [B];
+    [C];
+    [D];
 ```
 
 ```mermaid
