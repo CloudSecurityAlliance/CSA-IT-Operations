@@ -1,7 +1,7 @@
 # Things that can be hijacked
 
 ```mermaid
-flowchart LR
+graph LR
     [BGP]
     [DNS Name servers]
     [DNS Content]
