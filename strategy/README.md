@@ -19,7 +19,7 @@ No. I ended up finding an automation service that supported this exact use case,
 
 ### Why do we use the cloud at as high a level as possible?
 
-Because a lot of the work is now automated, e.g. why setup and patch a server when you can use a PaaS? Our PaaS bill is less than half a week of a FTE hire, which we would need at a minimum just ti patch servers if we ran it ourselves. How much value can you add by patching systems, really?
+Because a lot of the work is now automated, e.g. why setup and patch a server when you can use a PaaS? Our PaaS bill is less than half a week of a FTE hire, which we would need at a minimum patch servers if we run it ourselves. How much value can you add by patching systems, really?
 
 ## Constantly be looking for new cloud services and capabilities
 
