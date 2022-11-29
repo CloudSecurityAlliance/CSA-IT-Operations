@@ -21,6 +21,14 @@ No. I ended up finding an automation service that supported this exact use case,
 
 Because a lot of the work is now automated, e.g. why setup and patch a server when you can use a PaaS? Our PaaS bill is less than half a week of a FTE hire, which we would need at a minimum patch servers if we run it ourselves. How much value can you add by patching systems, really?
 
+## Use the official partners of the cloud service provider
+
+Many cloud services have official partners or reccomended services, e.g. for sending email. While you can often integrate other services with a new cloud provider the integration may not work flawlessly. If you are integrating an existing cloud service with a new one and it's not working you should take a step back sooner rather than later and consider 1) is the new cloud service worth it (e.g. maybe pick a different one that integrates better) and 2) if the new cloud service is worth it should you pick a new integration and possibly par for another service). 
+
+### Why do we use the official partners of the cloud service provider
+
+Simple, the time spent integrating an existing service rather than buying a new one, and the possible reliability issues often cost more than simply buying a new service. 
+
 ## Constantly be looking for new cloud services and capabilities
 
 It's not just about finding better services than the ones we currently use (e.g. the IaaS->PaaS->SaaS migration) but to find new capabilities.
