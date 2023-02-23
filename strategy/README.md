@@ -7,7 +7,7 @@ but a cloud only organization unless there is no alternative (e.g. the printer i
 
 ## Use the cloud at as high a level as possible
 
-Don't just forklift a workload into the cloud. Move it yup the stack IaaS->PaaS->SaaS where possible. Always remembering that some workloads aren't ready for it yet, and some workloads are things we need to do in house (see the Wardley maps for an explanation of this). 
+Don't just forklift a workload into the cloud. Move it up the stack IaaS->PaaS->SaaS where possible. Always remembering that some workloads aren't ready for it yet, and some workloads are things we need to do in house (see the Wardley maps for an explanation of this). 
 
 Example 1: originally the CSA mailing lists and marketing email were hosted on 5 servers running in AWS (2 front end incoming, mailman in the middle, 2 outgoing). This required a lot of care and feeding, and did not give us a lot of rudimentary, let alone modern capabilities (e.g. send emails to groups by country, timezone, etc.). 
 
