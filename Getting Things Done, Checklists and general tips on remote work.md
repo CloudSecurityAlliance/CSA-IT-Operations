@@ -4,6 +4,7 @@ Please note this is what works for me (Kurt Seifried) and I believe most of it w
 
 Todos should exist in both a central system (GTD) and as close to the actual place they get done (e.g. in this document).
 
+TODO: Add ChatGPT section
 TODO: Add Wardley Mapping section
 TODO: fix the tables at the end
 
