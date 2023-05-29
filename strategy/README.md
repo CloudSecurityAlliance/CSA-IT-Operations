@@ -41,3 +41,10 @@ Example 2: Data Backups of Google (Email/Drive) and Microsoft365 and Salesforce,
 
 Cloud services that don't allow collaboration (e.g. data sharing/editing) are preferred. The CSA is individuals working together, so we need to ensure we pick technologies that let people work together.
 
+## Core stack / services
+
+Our current core stock / services, especially for AI automation are:
+
+1. Airtable (data storage/user interfaces)
+2. Zapier (automation, linking)
+3. OpenAI ChatGPT (preferred over vemdor specific AI as we can use it everywhere via Zapier)
