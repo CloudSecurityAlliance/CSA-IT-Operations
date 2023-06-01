@@ -48,3 +48,4 @@ Our current core stock / services, especially for AI automation are:
 1. Airtable (data storage/user interfaces)
 2. Zapier (automation, linking)
 3. OpenAI ChatGPT (preferred over vemdor specific AI as we can use it everywhere via Zapier)
+4. XFanatical for Google Workspace related things
