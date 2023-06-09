@@ -22,6 +22,7 @@ linking
 * Google Calendar
 * Google Groups
 * Microsoft365
+* Pardot
 * Salesforce
 * ZenDesk
 
