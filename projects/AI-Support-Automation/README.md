@@ -22,6 +22,13 @@ Sub project:
 
 Export 12 months of Zendesk tickets and do quick keyword analysis/etc. on them, what topics/areas are most problematic?
 
+* Spam in tickets - can we identify spam and mark/close?
+* automated replies that an email no longer works or has changed
+* Out of office replies
+* request for access to chapter things (routing?)
+
+
+
 ## Possible problems/concerns:
 
 * How do we only get the AI to answer tickets it can confidently answer, and not e.g. hallucinate an answer? Require the answer to map to a support KB?
