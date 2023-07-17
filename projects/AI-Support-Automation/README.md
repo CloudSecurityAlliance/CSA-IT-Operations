@@ -13,7 +13,7 @@ This is the AI support automation project.
 
 1. Identify missing documents based on ticket requests
 2. Update/add support documentation in Zendesk (both for humans and to train AI models)
-3. Train AI model on documents
+3. Train AI model on documents - simply put the sitemap URL (https://support.zendesk.com/hc/en-us/articles/4408885974682-About-search-engine-optimization-SEO-in-your-help-center#topic_ppn_kj4_tz) https://support.cloudsecurityalliance.org/hc/sitemap.xml
 4. Use AI on tickets that are "supported" (e.g. we know for sure we have an answer)
 
 ## Project
@@ -34,7 +34,6 @@ Export 12 months of Zendesk tickets and do quick keyword analysis/etc. on them, 
 * request for access to chapter things (routing?)
 
 Update support docs
-
 
 ## Possible problems/concerns:
 
