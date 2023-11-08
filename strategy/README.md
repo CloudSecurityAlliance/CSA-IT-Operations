@@ -1,11 +1,11 @@
-# IT / Operations strategy at the Cloud Security Alliance
+# IT / Operations / AI strategy at the Cloud Security Alliance
 
 ## Use the cloud
 
 I know it seems obvious with the name being Cloud Security Alliance and all but we are not just a cloud first organization, 
 but a cloud only organization unless there is no alternative (e.g. the printer in the office).
 
-## Use the cloud at as high a level as possible
+## Use the cloud / AI at as high a level as possible
 
 Don't just forklift a workload into the cloud. Move it up the stack IaaS->PaaS->SaaS where possible. Always remembering that some workloads aren't ready for it yet, and some workloads are things we need to do in house (see the Wardley maps for an explanation of this). 
 
@@ -17,13 +17,13 @@ Example 2: A group wanted a weekly calendar agenda email (so on Monday send an e
 
 No. I ended up finding an automation service that supported this exact use case, and charged starting at $10/month. Set it up in about 5 minutes, tested it, worked, it's been working reliably every since.
 
-### Why do we use the cloud at as high a level as possible?
+### Why do we use the cloud / AI at as high a level as possible?
 
 Because a lot of the work is now automated, e.g. why setup and patch a server when you can use a PaaS? Our PaaS bill is less than half a week of a FTE hire, which we would need at a minimum patch servers if we run it ourselves. How much value can you add by patching systems, really?
 
 ## Use the official partners of the cloud service provider
 
-Many cloud services have official partners or reccomended services, e.g. for sending email. While you can often integrate other services with a new cloud provider the integration may not work flawlessly. If you are integrating an existing cloud service with a new one and it's not working you should take a step back sooner rather than later and consider 1) is the new cloud service worth it (e.g. maybe pick a different one that integrates better) and 2) if the new cloud service is worth it should you pick a new integration and possibly par for another service). 
+Many cloud services have official partners or recommended services, e.g. for sending email. While you can often integrate other services with a new cloud provider the integration may not work flawlessly. If you are integrating an existing cloud service with a new one and it's not working you should take a step back sooner rather than later and consider 1) is the new cloud service worth it (e.g. maybe pick a different one that integrates better) and 2) if the new cloud service is worth it should you pick a new integration and possibly par for another service). 
 
 ### Why do we use the official partners of the cloud service provider
 
@@ -46,6 +46,11 @@ Cloud services that don't allow collaboration (e.g. data sharing/editing) are pr
 Our current core stock / services, especially for AI automation are:
 
 1. Airtable (data storage/user interfaces)
-2. Zapier (automation, linking)
-3. OpenAI ChatGPT (preferred over vemdor specific AI as we can use it everywhere via Zapier)
-4. XFanatical for Google Workspace related things
+2. Zapier (automation, linking, AI) 
+3. OpenAI ChatGPT (preferred over vendor-specific AI as we can use it everywhere via Zapier)
+4. XFanatical for Google Workspace-related things
+5. Google
+6. Microsoft365
+7. MeetGeek to transcribe and summarize meetings
+8. Slack
+9. Google Meet / Microsoft Teams / Zoom for communications
