@@ -15,10 +15,10 @@ CircleCommunity -->|EmailVerified|ContactKeyAndCommunityKey[ContactKeyAndCommuni
 CircleSignup -->|EmailVerified|ContactKeyAndCommunityKey[ContactKeyAndCommunityKey];
 GoogleDrive -->|EmailVerified|EmailAndGroup[EmailAndGroup];
 
-EmailAndGroup-->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
-ContactKeyAndCommunityKey-->|LookupEmail|CircleAuth0EmailLookup[CircleAuth0EmailLookup];
-CircleAuth0EmailLookup->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
+EmailAndGroup -->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
+ContactKeyAndCommunityKey -->|LookupEmail|CircleAuth0EmailLookup[CircleAuth0EmailLookup];
+CircleAuth0EmailLookup -->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
 
-AirtableLookupCIA-->|WriteToWorktable|WGUserInfoTable[WGUserInfoTable];
+AirtableLookupCIA -->|WriteToWorktable|WGUserInfoTable[WGUserInfoTable];
 
 ```
