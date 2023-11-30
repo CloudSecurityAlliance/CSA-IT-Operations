@@ -21,3 +21,4 @@ ContactKeyAndCommunityKey-->|LookupEmail|CircleAuth0EmailLookup[CircleAuth0Email
 CircleAuth0EmailLookup->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA]
 
 AirtableLookupCIA-->|WriteToWorktable|WGUserInfoTable[WGUserInfoTable]
+```
