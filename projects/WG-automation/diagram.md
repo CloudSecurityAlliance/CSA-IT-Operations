@@ -12,13 +12,15 @@ ExpressionOfInterest -->|Google|GoogleDrive[GoogleDrive];
 InternalForm -->|Authenticated|EmailAndGroup[EmailAndGroup];
 ExternalForm -->|EmailVerified|EmailAndGroup[EmailAndGroup];
 CircleCommunity -->|EmailVerified|ContactKeyAndCommunityKey[ContactKeyAndCommunityKey];
-CircleSignup -->|EmailVerified|ContactKeyAndCommunityKey[ContactKeyAndCommunityKey];
+CircleSignup -->|EmailVerified|ContactKeyAndCommunityName[ContactKeyAndCommunityName];
 GoogleDrive -->|EmailVerified|EmailAndGroup[EmailAndGroup];
 
 EmailAndGroup -->|LookupWGInfo|AirtableLookupCIA[AirtableLookupCIA];
 
 ContactKeyAndCommunityKey -->|LookupEmail|CircleAuth0EmailLookup[CircleAuth0EmailLookup];
 CircleAuth0EmailLookup -->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
+
+ContactKeyAndCommunityName -->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
 
 AirtableLookupCIA -->|WriteToWorktable|WGUserInfoTable[WGUserInfoTable];
 
