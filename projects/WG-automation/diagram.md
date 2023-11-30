@@ -1,6 +1,5 @@
 ```mermaid
-%% Basic layout of WG automation
-graph LR;
+graph TD;
 
 %% TODO: Use public form options that require a validated email (Google Forms?)
 
@@ -21,4 +20,5 @@ ContactKeyAndCommunityKey-->|LookupEmail|CircleAuth0EmailLookup[CircleAuth0Email
 CircleAuth0EmailLookup->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
 
 AirtableLookupCIA-->|WriteToWorktable|WGUserInfoTable[WGUserInfoTable];
+
 ```
