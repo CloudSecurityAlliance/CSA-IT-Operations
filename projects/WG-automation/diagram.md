@@ -10,7 +10,13 @@ externalForm([External form])
 joinCommunity([Circle Community])
 joinVolunteer([Volunteer opportunity in Circle])
 
- 
+internalForm --> |CSA fills out| collectEmailAndGroup[Collects Email address and Group name]
+externalForm --> |User fills out| collectEmailAndGroup[Collects Email address and Group name]
+
+collectEmailAndGroup --> |Writes to| EOIAirtableForm[EOIAirtableForm]
+
+EOIAirtableForm --> |Zap| LookupWGData[Looks Up WG Data]
+LookupWGData --> |Zap| WritesToProcessingData[Writes to ProcessingData]
 
  
 
