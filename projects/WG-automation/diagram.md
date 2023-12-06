@@ -22,4 +22,7 @@ joinVolunteer --> |User clicks accept| CircleSendsEmail[Circle sends an email to
 CircleWebHook --> |ContactKey and CommunityKey| WritesToEOICircleCommunityJoin[Writes to EOICircleCommunityJoin]
 CircleSendsEmail --> |ContactKey and CommunityKey| WritesToEOICircleSignupForm[Writes to EOICircleSignupForm]
 
+WritesToEOICircleCommunityJoin --> |Zap| LookupWGInfoAndAutomation[Lookup email, WG Info and automation]
+WritesToEOICircleSignupForm --> |Zap| LookupWGInfoAndAutomation[Lookup email, WG Info and automation]
+
 ```
