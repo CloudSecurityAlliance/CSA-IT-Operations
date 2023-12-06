@@ -15,9 +15,6 @@ externalForm -->|collects|Email and community name[Email and community name]
 joinCommunity -->|Reports|ContactKey and CommunityKey[ContactKey and CommunityKey]
 joinVolunteer -->|Reports|ContactKey and community name[ContactKey and community name]
 
-Email and community name -->|Zap|Get Circle Group CIA Info[Get Circle Group CIA Info]
-ContactKey and community name -->|Zap|Get Email and Circle Group CIA Info[Get email and Circle Group CIA Info]
-
 
 
 ```
