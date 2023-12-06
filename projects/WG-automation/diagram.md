@@ -10,9 +10,11 @@ externalForm([External form])
 joinCommunity([Circle Community])
 joinVolunteer([Volunteer opportunity in Circle])
 
-internalForm --> collectEmailAndGroup[Collects Email address and Group name]
-ExternalForm --> collectEmailAndGroup[Collects Email address and Group name]
+internalForm --> |CSA fills out| collectEmailAndGroup[Collects Email address and Group name]
+externalForm --> |User fills out| collectEmailAndGroup[Collects Email address and Group name]
 
+joinCommunity --> 
+joinVolunteer --> 
 
 %% internalForm -->|collects|Email and community name[Email and community name]
 %% externalForm -->|collects|Email and community name[Email and community name]
