@@ -15,21 +15,10 @@ externalForm -->|collects|Email and community name[Email and community name]
 joinCommunity -->|Reports|ContactKey and CommunityKey[ContactKey and CommunityKey]
 joinVolunteer -->|Reports|ContactKey and community name[ContactKey and community name]
 
+Email and community name -->|Zap|Get Circle Group CIA Info[Get Circle Group CIA Info|]
+ContactKey and community name -->|Zap|Get Email and Circle Group CIA Info[Get email and Circle Group CIA Info|]
 
-
-%% TODO: Use public form options that require a validated email (Google Forms?)
-
-ExpressionOfInterest -->|Web|InternalForm[InternalForm];
-ExpressionOfInterest -->|Web|ExternalForm[ExternalForm];
-ExpressionOfInterest -->|Circle|CircleCommunity[CircleCommunity];
-ExpressionOfInterest -->|Circle|CircleSignup[CircleSignup];
-ExpressionOfInterest -->|Google|GoogleDrive[GoogleDrive];
-
-InternalForm -->|Authenticated|EmailAndGroup[EmailAndGroup];
-ExternalForm -->|EmailVerified|EmailAndGroup[EmailAndGroup];
-CircleCommunity -->|EmailVerified|ContactKeyAndCommunityKey[ContactKeyAndCommunityKey];
-CircleSignup -->|EmailVerified|ContactKeyAndCommunityName[ContactKeyAndCommunityName];
-GoogleDrive -->|EmailVerified|EmailAndGroup[EmailAndGroup];
+ 
 
 EmailAndGroup -->|LookupWGInfo|AirtableLookupCIA[AirtableLookupCIA];
 
