@@ -19,5 +19,7 @@ LookupWGData --> |Zap| WritesToProcessingData[Writes to ProcessingData]
 joinCommunity --> |User clicks join| CircleWebHook[Circle sends a webhook to Zaapier]
 joinVolunteer --> |User clicks accept| CircleSendsEmail[Circle sends an email to Zaapier]
 
+CircleWebHook --> |ContactKey and CommunityKey| WritesToEOICircleCommunityJoin[Writes to EOICircleCommunityJoin]
+CircleSendsEmail --> |ContactKey and CommunityKey| WritesToEOICircleSignupForm[Writes to EOICircleSignupForm]
 
 ```
