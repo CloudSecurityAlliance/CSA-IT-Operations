@@ -25,4 +25,6 @@ CircleSendsEmail --> |ContactKey and CommunityKey| WritesToEOICircleSignupForm[W
 WritesToEOICircleCommunityJoin --> |Zap| LookupWGInfoAndAutomation[Lookup email, WG Info and automation]
 WritesToEOICircleSignupForm --> |Zap| LookupWGInfoAndAutomation[Lookup email, WG Info and automation]
 
+LookupWGInfoAndAutomation --> |Write email, google groups| WriteToWorkGoogleGroups[Write to WorkGoogleGroups]
+LookupWGInfoAndAutomation --> |Write email, slack channel| WriteToWorkSlack[Write to WorkSlack]
 ```
