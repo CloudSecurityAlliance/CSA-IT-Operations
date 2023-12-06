@@ -15,8 +15,7 @@ externalForm --> |User fills out| collectEmailAndGroup[Collects Email address an
 
 collectEmailAndGroup -->  |Writes to| EOIAirtableForm[EOIAirtableForm]
 
-EOIAirtableForm --> |Zap| LookupWGData[Looks Up WG Data]
-LookupWGData --> |Zap| WrityesToProcessingData[Writes to ProcessingData] 
+
 
  
 
