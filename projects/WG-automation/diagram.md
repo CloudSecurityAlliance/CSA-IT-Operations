@@ -13,7 +13,8 @@ joinVolunteer([Volunteer opportunity in Circle])
 internalForm --> |CSA fills out| collectEmailAndGroup[Collects Email address and Group name]
 externalForm --> |User fills out| collectEmailAndGroup[Collects Email address and Group name]
 
-
+internalForm -->  |Writes to| EOIAirtableForm[EOIAirtableForm]
+externalForm --> |WWrites to| EOIAirtableForm[EOIAirtableForm]
 
 %% internalForm -->|collects|Email and community name[Email and community name]
 %% externalForm -->|collects|Email and community name[Email and community name]
