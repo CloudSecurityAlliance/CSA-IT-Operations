@@ -18,15 +18,6 @@ joinVolunteer -->|Reports|ContactKey and community name[ContactKey and community
 Email and community name -->|Zap|Get Circle Group CIA Info[Get Circle Group CIA Info]
 ContactKey and community name -->|Zap|Get Email and Circle Group CIA Info[Get email and Circle Group CIA Info]
 
- 
 
-EmailAndGroup -->|LookupWGInfo|AirtableLookupCIA[AirtableLookupCIA];
-
-ContactKeyAndCommunityKey -->|LookupEmail|CircleAuth0EmailLookup[CircleAuth0EmailLookup];
-CircleAuth0EmailLookup -->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
-
-ContactKeyAndCommunityName -->|LookupAndWGInfo|AirtableLookupCIA[AirtableLookupCIA];
-
-AirtableLookupCIA -->|WriteToWorktable|WGUserInfoTable[WGUserInfoTable];
 
 ```
