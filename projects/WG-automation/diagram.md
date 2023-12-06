@@ -14,7 +14,7 @@ internalForm --> |CSA fills out| collectEmailAndGroup[Collects Email address and
 externalForm --> |User fills out| collectEmailAndGroup[Collects Email address and Group name]
 collectEmailAndGroup --> |Writes to| EOIAirtableForm[EOIAirtableForm]
 EOIAirtableForm --> |Zap| LookupWGData[Looks Up WG Data]
-LookupWGData --> |Zap| WritesToProcessingData[Writes to ProcessingData]
+LookupWGData --> |Zap| ProcessingData[Writes to ProcessingData]
 ProcessingData  --> |Zap, new record| CheckForWorkToDo[Check for work to do]
 
 joinCommunity --> |User clicks join| CircleWebHook[Circle sends a webhook to Zaapier]
