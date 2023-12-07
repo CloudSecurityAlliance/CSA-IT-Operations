@@ -29,10 +29,17 @@ UpdateProcessingData[Update Processing Data] --> |updates| WriteToProcessingData
 end
 
 WriteToProcessingData --> |new item or updated item| AddToGoogleGroups[Add to Google Groups]
-WriteToProcessingData --> |new item or updated item| AddToGoogleGroups[Add to Slack]
+WriteToProcessingData --> |new item or updated item| AddToSlack[Add to Slack]
 
 subgraph Zapier Add to Google Groups
 AddToGoogleGroups --> |Write email, google groups| WriteToGoogleGroups[Write to Google Groups]
 end
 
 WriteToGoogleGroups --> |updates| UpdateProcessingData[Update Processing Data]
+
+subgraph Zapier Add to Slack
+AddToSlack --> |Invite to channel or slack if not exists| WriteToSlack[Write to Slack]
+end
+
+WriteToSlack --> |updates| UpdateProcessingData[Update Processing Data]
+
