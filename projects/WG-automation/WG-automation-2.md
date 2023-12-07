@@ -18,7 +18,7 @@ end
 ZapCheckEOIJoinVolunteer([Zap - check join volunteer is supported or not, update record])
 ZapCheckEOICircleWebhook([Zap - check circle webhook is supported or not, update record])
 
-subgraph ProcessingData
+subgraph Processing Data
 ProcessingData([ProcessingData])
 end
 
