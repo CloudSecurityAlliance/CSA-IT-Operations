@@ -12,8 +12,9 @@ end
 
 subgraph Zapier Log EOI
 %% Log the expression of internet (EOI), nothing else so it can't fail
-CircleWebHook --> |ContactKey and CommunityKey| WritesToEOICircleCommunityJoin[Writes to EOICircleCommunityJoin]
-CircleSendsEmail --> |ContactKey and CommunityKey| WritesToEOICircleSignupForm[Writes to EOICircleSignupForm]
+CircleWebHook --> |ContactKey and CommunityKey| WritesToEOICircle[Writes to EOICircle]
+CircleSendsEmail --> |ContactKey and CommunityKey| WritesToEOICircle[Writes to EOICircle]
 end
 
-
+WritesToEOICircle --> |new item| LookgupWGInfoEmail[Look up WG Info and Email address]
+ 
