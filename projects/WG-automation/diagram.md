@@ -33,5 +33,6 @@ WriteToProcessingData --> |new item or updated item| AddToGoogleGroups[Add to Sl
 
 subgraph Zapier Add to Google Groups
 AddToGoogleGroups --> |Write email, google groups| WriteToGoogleGroups[Write to Google Groups]
-WriteToGoogleGroups --> |updates| UpdateProcessingData[Update Processing Data]
 end
+
+WriteToGoogleGroups --> |updates| UpdateProcessingData[Update Processing Data]
