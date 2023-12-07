@@ -27,11 +27,14 @@ subgraph Zapier Process Data
 LookgupWGInfoEmail --> |Check automation level, data|WriteToProcessingData[Write to Processing Data]
 end
 
+WriteToProcessingData --> |new item| CheckForWorkToDo[Check For Work To Do]
 
 
+subgraph Zapier Do Work
+%% These often fail because the user already exists/etc
 CheckForWorkToDo --> |Write email, google groups| WriteToWorkGoogleGroups[Write to WorkGoogleGroups]
 CheckForWorkToDo --> |Write email, slack channel| WriteToWorkSlack[Write to WorkSlack]
-
+end
 
 
  
