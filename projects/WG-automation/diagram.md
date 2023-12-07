@@ -16,6 +16,15 @@ CircleWebHook --> |ContactKey and CommunityKey| WritesToEOICircleCommunityJoin[W
 CircleSendsEmail --> |ContactKey and CommunityKey| WritesToEOICircleSignupForm[Writes to EOICircleSignupForm]
 end
 
+subgraph Zapier Process Data Write to Work Tables
+## When a new EOI comes in find the email address and WG info
+WritesToEOICircleCommunityJoin --> |Zap| LookupWGInfoAndAutomation[Lookup email, WG Info and automation]
+WritesToEOICircleSignupForm --> |Zap| LookupWGInfoAndAutomation[Lookup email, WG Info and automation]
+LookupWGInfoAndAutomation --> |Wites all info| ProcessingData[Write to Processing Data]
+ProcessingData --> |Zap, new record| CheckForWorkToDo[Check for work to do]
+end
+
+
 
 
 
