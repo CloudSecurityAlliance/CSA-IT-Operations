@@ -27,7 +27,6 @@ subgraph Zapier Process Data
 LookgupWGInfoEmail --> |Check automation level, data|WriteToProcessingData[Write to Processing Data]
 end
 
-WriteToProcessingData --> || 
 
 
 CheckForWorkToDo --> |Write email, google groups| WriteToWorkGoogleGroups[Write to WorkGoogleGroups]
