@@ -25,16 +25,13 @@ subgraph Zapier Process Data
 %% This looks up the email in circle and if not found then in Auth0
 %% This only proceeds if we find an email address
 LookgupWGInfoEmail --> |Check automation level, data|WriteToProcessingData[Write to Processing Data]
+UpdateProcessingData[Update Processing Data] --> |updates| WriteToProcessingData
 end
 
-WriteToProcessingData --> |new item| CheckForWorkToDo[Check For Work To Do]
+WriteToProcessingData --> |new item or updated item| AddToGoogleGroups[Add to Google Groups]
+WriteToProcessingData --> |new item or updated item| AddToGoogleGroups[Add to Slack]
 
-
-subgraph Zapier Do Work
-%% These often fail because the user already exists/etc
-CheckForWorkToDo --> |Write email, google groups| WriteToWorkGoogleGroups[Write to WorkGoogleGroups]
-CheckForWorkToDo --> |Write email, slack channel| WriteToWorkSlack[Write to WorkSlack]
+subgraph Zapier Add to Google Groups
+AddToGoogleGroups --> |Write email, google groups| WriteToGoogleGroups[Write to Google Groups]
+WriteToGoogleGroups --> |updates| UpdateProcessingData[Update Processing Data]
 end
-
-
- 
