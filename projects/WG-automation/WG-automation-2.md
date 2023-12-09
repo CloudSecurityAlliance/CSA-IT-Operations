@@ -18,8 +18,8 @@ ZapEOIJoinVolunteer[Zap - Process Volunteer signup]
 EOICircleJoinCommunity([EOICircleJoinCommunity])
 EOICircleVolunteerSignup([EOICircleVolunteerSignup])
 
-ZapEOICircleWebhook-->|Writes to|EOICircleJoinCommunity
-ZapEOIJoinVolunteer-->|Writes to|EOICircleVolunteerSignup
+ZapEOICircleWebhook-->|writes to|EOICircleJoinCommunity
+ZapEOIJoinVolunteer-->|writes to|EOICircleVolunteerSignup
 end
 
 EOICircleJoinCommunity -->|new item|ZapCheckEOICircleWebhook
@@ -32,8 +32,8 @@ ZapCheckEOIJoinVolunteer[Zap - check join volunteer is supported or not, update 
 
 WQEOICircle([Work Queue for EOI Circle])
 
-ZapCheckEOICircleWebhook --> WQEOICircle
-ZapCheckEOIJoinVolunteer --> WQEOICircle
+ZapCheckEOICircleWebhook -->|writes to| WQEOICircle
+ZapCheckEOIJoinVolunteer -->|writes to| WQEOICircle
 end
 
 WQEOICircle -->|new item| ZapProcessEOItoProcessingData
@@ -51,6 +51,6 @@ ZapAddUserToSlack[Zap Add User To Slack]
 ZapAddUserToGoogleGroups[Zap Add User To Google groups]
 end
 
-ZapAddUserToSlack --> |update|ProcessingData
-ZapAddUserToGoogleGroups --> |update|ProcessingData
+ZapAddUserToSlack --> |updates|ProcessingData
+ZapAddUserToGoogleGroups --> |updates|ProcessingData
 
