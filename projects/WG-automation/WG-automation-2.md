@@ -49,9 +49,8 @@ ProcessingData -->|new item| ZapAddUserToGoogleGroups
 subgraph Do Work
 ZapAddUserToSlack[Zap Add User To Slack]
 ZapAddUserToGoogleGroups[Zap Add User To Google groups]
+end
 
 ZapAddUserToSlack --> |update|ProcessingData
 ZapAddUserToGoogleGroups --> |update|ProcessingData
-
-end
 
