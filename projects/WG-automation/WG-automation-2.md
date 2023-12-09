@@ -11,8 +11,14 @@ subgraph Log EOI
 %% Log the expression of internet (EOI), nothing else so it can't fail
 ZapEOIJoinVolunteer([Zap - Process Volunteer signup])
 ZapEOICircleWebhook([Zap - Process Join Community webhook])
+
 EOICircleVolunteerSignup([EOICircleVolunteerSignup])
 EOICircleJoinCommunity([EOICircleJoinCommunity])
+
+ZapEOIJoinVolunteer-->EOICircleVolunteerSignup
+ZapEOICircleWebhook-->EOICircleJoinCommunity
+
+
 end
 
 ZapCheckEOIJoinVolunteer([Zap - check join volunteer is supported or not, update record])
