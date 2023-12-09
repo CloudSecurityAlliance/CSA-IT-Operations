@@ -3,26 +3,30 @@ graph TD;
 
 %% CIRCLE SIDE
 subgraph Circle
-joinCommunity([Circle Community])
-joinVolunteer([Volunteer opportunity in Circle])
+joinCommunity([Join Circle Community])
+joinVolunteer([Join Volunteer opportunity in Circle])
 end
+
+joinCommunity -->|Sends webhook|ZapEOICircleWebhook
+joinVolunteer -->|Sends email|ZapEOIJoinVolunteer
 
 subgraph Log EOI
 %% Log the expression of internet (EOI), nothing else so it can't fail
-ZapEOIJoinVolunteer([Zap - Process Volunteer signup])
 ZapEOICircleWebhook([Zap - Process Join Community webhook])
+ZapEOIJoinVolunteer([Zap - Process Volunteer signup])
 
-EOICircleVolunteerSignup([EOICircleVolunteerSignup])
 EOICircleJoinCommunity([EOICircleJoinCommunity])
+EOICircleVolunteerSignup([EOICircleVolunteerSignup])
 
-ZapEOIJoinVolunteer-->EOICircleVolunteerSignup
 ZapEOICircleWebhook-->EOICircleJoinCommunity
-
+ZapEOIJoinVolunteer-->EOICircleVolunteerSignup
 
 end
 
+subgraph Parse EOI
 ZapCheckEOIJoinVolunteer([Zap - check join volunteer is supported or not, update record])
 ZapCheckEOICircleWebhook([Zap - check circle webhook is supported or not, update record])
+end
 
 subgraph Processing Data
 ProcessingData([ProcessingData])
