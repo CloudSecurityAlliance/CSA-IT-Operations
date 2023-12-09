@@ -3,8 +3,8 @@ graph TD;
 
 %% CIRCLE SIDE
 subgraph Circle
-joinCommunity([Join Circle Community])
-joinVolunteer([Join Volunteer opportunity in Circle])
+joinCommunity{Join Circle Community}
+joinVolunteer{Join Volunteer opportunity in Circle}
 end
 
 joinCommunity -->|Sends webhook|ZapEOICircleWebhook
