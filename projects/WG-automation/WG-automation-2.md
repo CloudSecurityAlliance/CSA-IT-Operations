@@ -40,13 +40,18 @@ WQEOICircle -->|new item| ZapProcessEOItoProcessingData
 
 subgraph Processing Data
 ProcessingData([ProcessingData])
-
 ZapProcessEOItoProcessingData -->|writes to|ProcessingData
-
 end
+
+ProcessingData -->|new item| ZapAddUserToSlack
+ProcessingData -->|new item| ZapAddUserToGoogleGroups
 
 subgraph Do Work
 ZapAddUserToSlack[Zap Add User To Slack]
 ZapAddUserToGoogleGroups[Zap Add User To Google groups]
+
+ZapAddUserToSlack --> |update|ProcessingData
+ZapAddUserToGoogleGroups --> |update|ProcessingData
+
 end
 
