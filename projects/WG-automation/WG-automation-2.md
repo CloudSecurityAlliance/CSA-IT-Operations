@@ -11,19 +11,19 @@ joinCommunity -->|Sends webhook|ZapEOICircleWebhook
 joinVolunteer -->|Sends email|ZapEOIJoinVolunteer
 
 subgraph Log EOI
-%% Log the expression of internet (EOI), nothing else so it can't fail
+%% Log the expression of internest (EOI), nothing else so it can't fail
 ZapEOICircleWebhook[Zap - Process Join Community webhook]
 ZapEOIJoinVolunteer[Zap - Process Volunteer signup]
 
 EOICircleJoinCommunity([EOICircleJoinCommunity])
 EOICircleVolunteerSignup([EOICircleVolunteerSignup])
 
-ZapEOICircleWebhook-->EOICircleJoinCommunity
-ZapEOIJoinVolunteer-->EOICircleVolunteerSignup
+ZapEOICircleWebhook-->|Writes to|EOICircleJoinCommunity
+ZapEOIJoinVolunteer-->|Writes to|EOICircleVolunteerSignup
 end
 
-EOICircleJoinCommunity -->ZapCheckEOICircleWebhook
-EOICircleVolunteerSignup -->ZapCheckEOIJoinVolunteer
+EOICircleJoinCommunity -->|new item|ZapCheckEOICircleWebhook
+EOICircleVolunteerSignup -->|new item|ZapCheckEOIJoinVolunteer
 
 
 subgraph Parse EOI
