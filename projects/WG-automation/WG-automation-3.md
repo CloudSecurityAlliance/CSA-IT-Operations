@@ -38,6 +38,10 @@ subgraph Google Share Request
 GoogleShareRequest{Google Share Request}
 end
 
-
+%% Google Groups
+%% Do we allow arbitrary signup? no... existing users however.
+subgraph Gogle Groups
+GoogleGroups{Google Groups membership}
+end
 
 ```
