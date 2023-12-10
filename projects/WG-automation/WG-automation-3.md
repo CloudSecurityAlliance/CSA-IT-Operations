@@ -8,8 +8,14 @@ joinCircleCommunity{Join Circle Community}
 joinCircleVolunteer{Join Circle Volunteer}
 end
 
-joinCircleCommunity-->|sends webhook, not reliable|ZapEOIJoinCircleCOmmunity
-joinCircleCommunity-->|manual reconciliation, delayed|ZapEOIJoinCircleCOmmunity
+joinCircleCommunity-->|sends webhook, not reliable|ZapEOIJoinCircleCommunity
+joinCircleCommunity-->|manual reconciliation, delayed|ZapEOIJoinCircleCommunity
+%% POST api/v2.0/Communities/GetCommunityMembers
+
+joinCircleVolunteer-->|sends email|ZapEOIJoinCircleVolunteerOpprtunity
+joinCircleVolunteer-->|manual reconciliation, delayed|ZapEOIJoinCircleVolunteerOpprtunity
+%% GET api/v2.0/Volunteer/GetVolunteerList?volunteerOpportunityKey={volunteerOpportunityKey}
+
 
 %% Internal Forms
 %% Internal form, assumes EOI given
