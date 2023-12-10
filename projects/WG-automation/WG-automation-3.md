@@ -8,6 +8,10 @@ joinCircleCommunity{Join Circle Community}
 joinCircleVolunteer{Join Circle Volunteer}
 end
 
+joinCircleCommunity-->|sends webhook, not reliable|ZapEOIJoinCircleCOmmunity
+joinCircleCommunity-->|manual reconciliation, delayed|ZapEOIJoinCircleCOmmunity
+
+
 %% Internal Forms
 %% Internal form, assumes EOI given
 subgraph Internal Forms
