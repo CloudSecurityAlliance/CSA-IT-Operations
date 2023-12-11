@@ -11,8 +11,8 @@ end
 joinCircleCommunity-->|sends webhook, not reliable|ZapEOIJoinCircleCommunity
 joinCircleCommunity-->|software reconciliation, delayed|ZapEOIJoinCircleCommunity
 
-joinCircleVolunteer-->|sends email|ZapEOIJoinCircleVolunteerOpprtunity
-joinCircleVolunteer-->|software reconciliation, delayed|ZapEOIJoinCircleVolunteerOpprtunity
+joinCircleVolunteer-->|sends email|ZapEOIJoinCircleVolunteerOpportunity
+joinCircleVolunteer-->|software reconciliation, delayed|ZapEOIJoinCircleVolunteerOpportunity
 
 %% Internal Forms
 %% Internal form, assumes EOI given
