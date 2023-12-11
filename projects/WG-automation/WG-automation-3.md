@@ -9,10 +9,10 @@ joinCircleVolunteer{Join Circle Volunteer}
 end
 
 joinCircleCommunity-->|sends webhook, not reliable|ZapEOIJoinCircleCommunity
-joinCircleCommunity-->|manual reconciliation, delayed|ZapEOIJoinCircleCommunity
+joinCircleCommunity-->|software reconciliation, delayed|ZapEOIJoinCircleCommunity
 
 joinCircleVolunteer-->|sends email|ZapEOIJoinCircleVolunteerOpprtunity
-joinCircleVolunteer-->|manual reconciliation, delayed|ZapEOIJoinCircleVolunteerOpprtunity
+joinCircleVolunteer-->|software reconciliation, delayed|ZapEOIJoinCircleVolunteerOpprtunity
 
 %% Internal Forms
 %% Internal form, assumes EOI given
