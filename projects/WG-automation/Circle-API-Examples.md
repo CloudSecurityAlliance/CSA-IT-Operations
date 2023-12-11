@@ -20,7 +20,7 @@ Returns a list of Communities the Current User can see.
 [https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Communities-GetViewableCommunities_includeStatistics](https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Communities-GetViewableCommunities_includeStatistics)
 
 ```
-curl https://api.connectedcommunity.org/api/v2.0/Communities/GetViewableCommunities \
+curl -s -X GET https://api.connectedcommunity.org/api/v2.0/Communities/GetViewableCommunities \
      -H 'HLIAMKey: '"$HLIAMKEY"'' \
      -H 'HLPassword: '"$HLPASSWORD"''
 ```
@@ -33,7 +33,7 @@ Retrieve a list of Members of the specified Community in LastName, FirstName ord
 [https://api.connectedcommunity.org/Help/Api/POST-api-v2.0-Communities-GetCommunityMembers](https://api.connectedcommunity.org/Help/Api/POST-api-v2.0-Communities-GetCommunityMembers)
 
 ```
-curl -X POST https://api.connectedcommunity.org/api/v2.0/Communities/GetCommunityMembers \
+curl -s -X POST https://api.connectedcommunity.org/api/v2.0/Communities/GetCommunityMembers \
      -H 'Content-Type: application/json' \
      -d '{"CommunityKey":"CommunityKeyValueHere","StartRecord": 1,"EndRecord": 10000}' \
      -H 'HLIAMKey: '"$HLIAMKEY"'' \
@@ -50,7 +50,7 @@ Returns a list of active Volunteer Opportunities in the system.
 [https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Volunteer-GetVolunteerOpportunityList](https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Volunteer-GetVolunteerOpportunityList)
 
 ```
-curl https://api.connectedcommunity.org/api/v2.0/Volunteer/GetVolunteerOpportunityList \
+curl -s -X GET https://api.connectedcommunity.org/api/v2.0/Volunteer/GetVolunteerOpportunityList \
      -H 'HLIAMKey: '"$HLIAMKEY"'' \
      -H 'HLPassword: '"$HLPASSWORD"''
 ```
@@ -63,7 +63,7 @@ Accessible only by Super Admin, Community Admin (if the Volunteer Opportunity is
 [https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Volunteer-GetVolunteerList_volunteerOpportunityKey](https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Volunteer-GetVolunteerList_volunteerOpportunityKey)https://api.connectedcommunity.org/Help/Api/GET-api-v2.0-Volunteer-GetVolunteerList_volunteerOpportunityKey
 
 ```
-curl https://api.connectedcommunity.org/api/v2.0/Volunteer/GetVolunteerList?volunteerOpportunityKey={volunteerOpportunityKey} \
+curl -s -X GET https://api.connectedcommunity.org/api/v2.0/Volunteer/GetVolunteerList?volunteerOpportunityKey={volunteerOpportunityKey} \
      -H 'HLIAMKey: '"$HLIAMKEY"'' \
      -H 'HLPassword: '"$HLPASSWORD"''	
 ```
