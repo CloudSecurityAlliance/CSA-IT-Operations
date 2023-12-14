@@ -10,6 +10,8 @@ graph TD;
 %% CCSK/CCAK/CCZT (email/password or SSO)
 %% MicrosoftTeams (email verified)
 
+%% EXTERNAL SERVICES like Cvent
+
 Auth0[Auth0]
 Circle[Circle]
 GoogleGroupsEmail[GoogleGroupsEmail]
@@ -18,6 +20,6 @@ Pardot[Pardot]
 MainWebsite[Main Website]
 CertWebsites[CCSK/CCAK/CCZT]
 MicrosoftTeams[MicrosoftTeams]
-
+CVent[CVent]
 
 ```
