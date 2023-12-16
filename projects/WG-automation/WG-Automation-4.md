@@ -26,6 +26,7 @@ ZapEOIJoinCircleVolunteerOpportunity-->|writes to|GoogleSheetEOIJoinCircleVolunt
 subgraph GoogleSheets
 GoogleSheetEOIJoinCircleCommunity[(Google Sheet EOIJoinCircleCommunity)]
 GoogleSheetEOIJoinCircleVolunteerOpportunity[(Google Sheet EOIJoinCircleVolunteerOpportunity)]
+GoogleSheetEOIRequestGoogleDriveAccess[(GoogleSheetEOIRequestGoogleDriveAccess)]
 end
 
 GoogleSheetEOIJoinCircleCommunity-->|new entry|ZapProcessJoinCircleCommunity
@@ -42,6 +43,10 @@ end
 requestGoogleDriveAccess-->|sends email|GoogleDriveOwner
 GoogleDriveOwner-->|sends email|GoogleGroupDriveIngestion
 GoogleGroupDriveIngestion-->|sends email|ZapEOIRequestGoogleDriveAccess
+
+ZapEOIRequestGoogleDriveAccess-->|writes to|GoogleSheetEOIRequestGoogleDriveAccess
+
+GoogleSheetEOIRequestGoogleDriveAccess-->|new entry|ZapProcessRequestGoogleDriveAccess
 
 
 ```
