@@ -9,10 +9,13 @@ graph TD;
 
 %% Ingestion points:
 %% Circle - join community
-%% Circle - join volunteer opportunity
-%% Google - request drive access
+%% Circle - join volunteer opportunity (requires email forwarding by WG owner)
+%% Google - request drive access (requires email forwarding by Google Drive Owner, e.g. kseifried@)
 %% Internal form to add people
 %% External form to request signup with additional info
+%% Internal scripts to directly add people
+%% Manual addition of people (prone to error/forgetting!)
+
 
 %% CIRCLE SIDE
 %% Verified email, user initiates action
