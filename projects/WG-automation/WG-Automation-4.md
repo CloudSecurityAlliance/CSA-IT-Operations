@@ -12,8 +12,8 @@ joinCircleCommunity-->|send webhook realtime|ZapEOIJoinCircleCommunity
 
 joinCircleCommunity-->|query community members|ScriptEOIJoinCircleCommunity
 
-ScriptEOIJoinCircleCommunity-->|adds users to google groups|Google Groups done
-ScriptEOIJoinCircleCommunity-->|manual invite to slack channel|Slack invite done
+ScriptEOIJoinCircleCommunity-->|adds users to google groups|GoogleGroupsDone
+ScriptEOIJoinCircleCommunity-->|manual invite to slack channel|SlackInviteDone
 
 joinCircleVolunteer-->|sends email|CommunityOwnerEmail
 CommunityOwnerEmail-->|sends email|GoogleGroupIngestion
@@ -21,8 +21,8 @@ GoogleGroupIngestion-->|sends email|ZapEOIJoinCircleVolunteerOpportunity
 
 joinCircleVolunteer-->|query volunteer opportunities members|ScriptEOIJoinCircleVolunteerOpportunity
 
-ScriptEOIJoinCircleVolunteerOpportunity-->|adds users to google groups|Google Groups done
-ScriptEOIJoinCircleVolunteerOpportunity-->|manual invite to slack channel|Slack invite done
+ScriptEOIJoinCircleVolunteerOpportunity-->|adds users to google groups|GoogleGroupsDone
+ScriptEOIJoinCircleVolunteerOpportunity-->|manual invite to slack channel|SlackInviteDone
 
 ZapEOIJoinCircleCommunity-->|writes to|GoogleSheetEOIJoinCircleCommunity
 
