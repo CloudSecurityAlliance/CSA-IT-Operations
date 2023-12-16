@@ -19,5 +19,9 @@ GoogleGroupIngestion-->|sends email|ZapEOIJoinCircleVolunteerOpportunity
 joinCircleVolunteer-->|query volunteer opportunities members|ScriptEOIJoinCircleVolunteerOpportunity
 
 
+ZapEOIJoinCircleCommunity-->|writes to|GoogleSheetEOIJoinCircleCommunity
+
+ZapEOIJoinCircleVolunteerOpportunity-->|writes to|GoogleSheetEOIJoinCircleVolunteerOpportunity
+
 
 ```
