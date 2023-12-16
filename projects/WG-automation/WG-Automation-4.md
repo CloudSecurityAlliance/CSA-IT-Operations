@@ -1,6 +1,19 @@
 ```mermaid
 graph TD;
 
+%% Automation levels:
+%% Manual (do nothing)
+%% Invite (invite them to join via URLs)
+%% Vetted (Notify WG owners of application)
+%% Automated (just add them in)
+
+%% Ingestion points:
+%% Circle - join community
+%% Circle - join volunteer opportunity
+%% Google - request drive access
+%% Internal form to add people
+%% External form to request signup with additional info
+
 %% CIRCLE SIDE
 %% Verified email, user initiates action
 subgraph Circle
