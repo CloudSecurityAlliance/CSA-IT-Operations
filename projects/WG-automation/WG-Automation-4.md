@@ -28,4 +28,10 @@ GoogleSheetEOIJoinCircleCommunity[(Google Sheet EOIJoinCircleCommunity)]
 GoogleSheetEOIJoinCircleVolunteerOpportunity[(Google Sheet EOIJoinCircleVolunteerOpportunity)]
 end
 
+GoogleSheetEOIJoinCircleCommunity-->|new entry|ZapProcessJoinCircleCommunity
+GoogleSheetEOIJoinCircleVolunteerOpportunity-->|new entry|ZapProcessJoinCircleVolunteerOpportunity
+
+ZapProcessJoinCircleCommunity-->|writes to|GoogleSheetCircleProcessing
+ZapProcessJoinCircleVolunteerOpportunity-->|writes to|GoogleSheetCircleProcessing
+
 ```
