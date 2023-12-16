@@ -23,5 +23,9 @@ ZapEOIJoinCircleCommunity-->|writes to|GoogleSheetEOIJoinCircleCommunity
 
 ZapEOIJoinCircleVolunteerOpportunity-->|writes to|GoogleSheetEOIJoinCircleVolunteerOpportunity
 
+subgraph GoogleSheets
+GoogleSheetEOIJoinCircleCommunity[(Google Sheet EOIJoinCircleCommunity)]
+GoogleSheetEOIJoinCircleVolunteerOpportunity[(Google Sheet EOIJoinCircleVolunteerOpportunity)]
+end
 
 ```
