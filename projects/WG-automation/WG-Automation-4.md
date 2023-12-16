@@ -34,4 +34,14 @@ GoogleSheetEOIJoinCircleVolunteerOpportunity-->|new entry|ZapProcessJoinCircleVo
 ZapProcessJoinCircleCommunity-->|writes to|GoogleSheetCircleProcessing
 ZapProcessJoinCircleVolunteerOpportunity-->|writes to|GoogleSheetCircleProcessing
 
+%% Google side
+subgraph Google
+requestGoogleDriveAccess{Request Google Drive Access}
+end
+
+requestGoogleDriveAccess-->|sends email|GoogleDriveOwner
+GoogleDriveOwner-->|sends email|GoogleGroupDriveIngestion
+GoogleGroupDriveIngestion-->|sends email|ZapEOIRequestGoogleDriveAccess
+
+
 ```
