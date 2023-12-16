@@ -12,12 +12,17 @@ joinCircleCommunity-->|send webhook realtime|ZapEOIJoinCircleCommunity
 
 joinCircleCommunity-->|query community members|ScriptEOIJoinCircleCommunity
 
+ScriptEOIJoinCircleCommunity-->|adds users to google groups|Google Groups done
+ScriptEOIJoinCircleCommunity-->|manual invite to slack channel|Slack invite done
+
 joinCircleVolunteer-->|sends email|CommunityOwnerEmail
 CommunityOwnerEmail-->|sends email|GoogleGroupIngestion
 GoogleGroupIngestion-->|sends email|ZapEOIJoinCircleVolunteerOpportunity
 
 joinCircleVolunteer-->|query volunteer opportunities members|ScriptEOIJoinCircleVolunteerOpportunity
 
+ScriptEOIJoinCircleVolunteerOpportunity-->|adds users to google groups|Google Groups done
+ScriptEOIJoinCircleVolunteerOpportunity-->|manual invite to slack channel|Slack invite done
 
 ZapEOIJoinCircleCommunity-->|writes to|GoogleSheetEOIJoinCircleCommunity
 
