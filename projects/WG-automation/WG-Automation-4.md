@@ -28,8 +28,8 @@ joinCircleCommunity-->|send webhook realtime|ZapEOIJoinCircleCommunity
 
 joinCircleCommunity-->|query community members|ScriptEOIJoinCircleCommunity
 
-ScriptEOIJoinCircleCommunity-->|adds users to google groups|GoogleGroupsDone
-ScriptEOIJoinCircleCommunity-->|manual invite to slack channel|SlackInviteDone
+ScriptEOIJoinCircleCommunity-->|adds users to google groups|GoogleGroupsDone1
+ScriptEOIJoinCircleCommunity-->|manual invite to slack channel|SlackInviteDone1
 
 joinCircleVolunteer-->|sends email|CommunityOwnerEmail
 CommunityOwnerEmail-->|sends email|GoogleGroupIngestion
@@ -37,8 +37,8 @@ GoogleGroupIngestion-->|sends email|ZapEOIJoinCircleVolunteerOpportunity
 
 joinCircleVolunteer-->|query volunteer opportunities members|ScriptEOIJoinCircleVolunteerOpportunity
 
-ScriptEOIJoinCircleVolunteerOpportunity-->|adds users to google groups|GoogleGroupsDone
-ScriptEOIJoinCircleVolunteerOpportunity-->|manual invite to slack channel|SlackInviteDone
+ScriptEOIJoinCircleVolunteerOpportunity-->|adds users to google groups|GoogleGroupsDone2
+ScriptEOIJoinCircleVolunteerOpportunity-->|manual invite to slack channel|SlackInviteDone2
 
 ZapEOIJoinCircleCommunity-->|writes to|GoogleSheetEOIJoinCircleCommunity
 
