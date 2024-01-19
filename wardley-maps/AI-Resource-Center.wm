@@ -1,0 +1,30 @@
+title CSA AI Resource Center
+
+component Raw Data (URLs, files, videos, audio, etc.) [0.14, 0.48]
+
+
+component Filters and sort to find information [0.95, 0.53]
+component Conversational interface to discover "what do you know about X" [0.96, 0.70]
+
+component Web browsing classic interface [0.80, 0.56] label [5, -10]
+component AI ChatBot interface [0.80, 0.70]
+
+component Tagging and categorizing objects [0.50, 0.56]
+component Understanding what a document or object is (document, git repo) [0.30, 0.57]
+
+component User submissions of Files and URLs [0.91, 0.42]
+
+component Permissions to have private data (can't use AI chatbot) [0.62, 0.35]
+
+
+User submissions of Files and URLs -> Raw Data (URLs, files, videos, audio, etc.)
+Raw Data (URLs, files, videos, audio, etc.) -> Understanding what a document or object is (document, git repo)
+Understanding what a document or object is (document, git repo) -> Tagging and categorizing objects
+Tagging and categorizing objects -> Web browsing classic interface
+Tagging and categorizing objects -> AI ChatBot interface
+
+Web browsing classic interface -> Filters and sort to find information
+
+Understanding what a document or object is (document, git repo) -> AI ChatBot interface
+
+AI ChatBot interface -> Conversational interface to discover "what do you know about X"
