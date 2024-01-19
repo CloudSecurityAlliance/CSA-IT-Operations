@@ -1,21 +1,22 @@
 title CSA AI Resource Center
 
+// https://onlinewardleymaps.com/#u22b2pyv4aaPUpShZg
+// https://github.com/cloudsecurityalliance/CSA-IT-Operations/tree/main/wardley-maps
+
 component Raw Data (URLs, files, videos, audio, etc.) [0.14, 0.48]
 
+component Filters and sort to find information [0.97, 0.46]
+component Conversational interface to discover "what do you know about X" [0.93, 0.68]
 
-component Filters and sort to find information [0.95, 0.53]
-component Conversational interface to discover "what do you know about X" [0.96, 0.70]
-
-component Web browsing classic interface [0.80, 0.56] label [5, -10]
-component AI ChatBot interface [0.80, 0.70]
+component Web browsing classic interface [0.74, 0.53] label [5, -10]
+component AI ChatBot interface [0.83, 0.79]
 
 component Tagging and categorizing objects [0.50, 0.56]
 component Understanding what a document or object is (document, git repo) [0.30, 0.57]
 
-component User submissions of Files and URLs [0.91, 0.42]
+component User submissions of Files and URLs [0.88, 0.44]
 
-component Permissions to have private data (can't use AI chatbot) [0.62, 0.35]
-
+component Permissions to have private data (can't use AI chatbot) [0.09, 0.06]
 
 User submissions of Files and URLs -> Raw Data (URLs, files, videos, audio, etc.)
 Raw Data (URLs, files, videos, audio, etc.) -> Understanding what a document or object is (document, git repo)
