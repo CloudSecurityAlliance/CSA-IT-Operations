@@ -6,7 +6,6 @@ graph TD;
 subgraph work
   Whatdowewant
   WhatcanAIdo
-  new
 end
 
 subgraph worktypes
