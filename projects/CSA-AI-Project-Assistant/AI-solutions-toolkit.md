@@ -27,11 +27,24 @@
 
 ## OpenAI My GPTs
 
-These are RAG bots, the file ingest is limited: 20 files, each file can be up to 512 MB in size and can contain 2,000,000 tokens. No OCR, no abilitry to parse text columns e.g. do not upload a slide deck. Stick to plain text or markdown formatted text.
+**Capabilities:** These are RAG bots based on ChatGPT 4, the file ingest is limited: 20 files, each file can be up to 512 MB in size and can contain 2,000,000 tokens. No OCR, no abilitry to parse text columns e.g. do not upload a slide deck. Stick to plain text or markdown formatted text.
 
-https://help.openai.com/en/articles/8554397-creating-a-gpt
-https://help.openai.com/en/articles/8673914-gpts-vs-assistants
-https://help.openai.com/en/articles/8843948-knowledge-in-gpts
-https://help.openai.com/en/articles/8554407-gpts-faq
-https://help.openai.com/en/articles/8798878-building-and-publishing-a-gpt
+**Access requirements:** You must have a paid ChatGPT account to access a My GPTs bot
+
+**Cost for the CSA to run:** none at this time
+
+**Limitations:** There is no integration with Zapier for automated uploads of new or updated knowledge files
+
+**Benefits:** Very quick and easy to build, costs the CSA nothing to run at this time
+
+**Maintenance and Operational requirements:**  Very low, update the knowledge files as needed and update the instructions (system prompt) as needed.
+
+**Resources:**
+
+* https://help.openai.com/en/articles/8554397-creating-a-gpt
+* https://help.openai.com/en/articles/8673914-gpts-vs-assistants
+* https://help.openai.com/en/articles/8843948-knowledge-in-gpts
+* https://help.openai.com/en/articles/8554407-gpts-faq
+* https://help.openai.com/en/articles/8798878-building-and-publishing-a-gpt
+
 
