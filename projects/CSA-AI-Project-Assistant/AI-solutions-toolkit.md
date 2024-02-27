@@ -22,8 +22,14 @@
 ## Training
 * Training decks, RAG Bots as tutors/mentors
 
+# Building solutions overview
+
+Decide what to build, build it, log it in https://docs.google.com/spreadsheets/d/1-tOBliwR62TGcuh69tBQ7Rt8tF3YUm3BRHbjSnc9Gpg and ensuire the data is backed up for from a source that is backed up.
 
 # Notes on specific technologies:
+
+
+
 
 ## OpenAI My GPTs
 
@@ -47,4 +53,10 @@
 * https://help.openai.com/en/articles/8554407-gpts-faq
 * https://help.openai.com/en/articles/8798878-building-and-publishing-a-gpt
 
+### Building instructions
 
+
+
+### Backup instructions
+
+Backup the knowledge files and the name, description, and instructions (system prompt) to a text file in markdown format. 
