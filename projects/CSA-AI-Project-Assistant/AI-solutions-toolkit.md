@@ -26,8 +26,7 @@
 
 Decide what to build, build it, log it in https://docs.google.com/spreadsheets/d/1-tOBliwR62TGcuh69tBQ7Rt8tF3YUm3BRHbjSnc9Gpg and ensuire the data is backed up for from a source that is backed up.
 
-# Notes on specific technologies:
-
+# Information on specific technologies:
 
 
 
