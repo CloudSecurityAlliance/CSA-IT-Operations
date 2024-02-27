@@ -14,7 +14,7 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Enhance current operations.
   - Innovate with AI.
 
-## 2. Project Scope and Impact
+## 2. Project Scope
 - **Understanding the Work**
   - Specific tasks or operations impacted.
   - Current processes and challenges.
@@ -26,12 +26,20 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Usage modalities: interactive, batch processing, live meetings, guidance tool.
   - Application scope: private internal or public use.
 
+## 3. Project Impact
+
 - **AI Output Considerations**
   - Type of content,product or activity produced.
   - AI-generated content labeling.
   - Acceptability of AI-generated content to the audience.
 
-## 3. Technical Considerations
+- **Benefit to the CSA and community**
+  - Benefit of the project internally to the CSA, volunteers, chapters, members, etc. and externally to the community at large
+  - ROI of the project, does it create cost savings
+  - Publicity associated with the project, do people directly interact with it or benefit from it?
+
+
+## 4. Technical Considerations
 - **AI Tool Evaluation**
   - Evaluation of potential AI tools and technologies.
   - Consideration of the current CSA AI toolkit and other suitable tools.
@@ -45,7 +53,7 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Integration guidelines with IT infrastructure and business systems.
   - Integration challenges and best practices.
 
-## 4. Project Management and Planning
+## 5. Project Management and Planning
 - **Cost and Pricing Considerations**
   - Management of AI tool costs.
   - Pricing model and user payment.
@@ -66,7 +74,7 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Managing AI system changes.
   - Impact assessment on users and processes.
 
-## 5. User Interaction and Support
+## 6. User Interaction and Support
 - **User Training and Support**
   - Training plans for users.
   - Support structures for troubleshooting.
@@ -75,7 +83,7 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Key stakeholders identification.
   - Communication strategies.
 
-## 6. Performance and Evaluation
+## 7. Performance and Evaluation
 - **Measuring Success and Key Performance Indicators (KPIs)**
   - Success metrics.
   - KPIs for AI output validation.
@@ -84,7 +92,7 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Testing approach, including performance and security testing.
   - Validation process for AI outputs.
 
-## 7. Ethical, Legal, and Societal Considerations
+## 8. Ethical, Legal, and Societal Considerations
 - **AI Impact Considerations**
   - Public facing aspects.
   - Efficiency and return on investment.
@@ -98,7 +106,7 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
 
 - **Overview of relevant industry standards and regulatory requirements that the AI project must comply with.**
 
-## 8. Sustainability and Future Planning
+## 9. Sustainability and Future Planning
 - **End of Life for the AI Tool**
   - Decommissioning criteria.
 
@@ -106,12 +114,12 @@ Welcome to the Cloud Security Alliance AI Project Exploration process. This docu
   - Environmental impact considerations.
   - Sustainability strategies.
 
-## 9. Documentation and Knowledge Management
+## 10. Documentation and Knowledge Management
 - **Documentation and Knowledge Management**
   - Development process and operational procedures documentation.
   - Knowledge management practices.
 
-## 10. Current Examples of the CSA AI Toolkit
+## 11. Current Examples of the CSA AI Toolkit
 - Engineered and system prompts.
 - OpenAI GPT bot, RAG Bot.
 - Dedicated software using APIs.
