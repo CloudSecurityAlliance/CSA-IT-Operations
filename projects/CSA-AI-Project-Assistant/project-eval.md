@@ -1,58 +1,121 @@
-# Cloud Security Alliance AI Project Exploration Document
+# Cloud Security Alliance AI Project Exploration and Planning Document
 
 ## Introduction
 Welcome to the Cloud Security Alliance AI Project Exploration process. This document is designed to guide you through the planning and documentation of your AI project, ensuring that you consider all necessary aspects for a successful deployment.
 
-## 1. Project Objectives
-- **What do you hope to accomplish with AI?**
+## 1. Objectives and Current State
+- **Assessment of Current Workflow and Outcomes**
+  - Evaluate current processes and identify inefficiencies.
+  - Document existing workflows, tools, and technologies in use.
+  - Analyze current outcomes and performance metrics.
+
+- **Example Objectives**
   - Automate existing tasks.
   - Enhance current operations.
-  - Innovate by doing something entirely new with AI.
+  - Innovate with AI.
 
-## 2. Intended Users
-- **Who will be using the AI tool in your project?**
-  - Internal CSA analysts.
-  - External volunteers.
-  - Other (please specify).
-  
-- **Will individuals or teams be using this tool?**
-- **How will the tool be used?**
-  - Interactively.
-  - In batch processing style.
-  - Live in meetings.
-  - As a guidance and help tool.
+## 2. Project Scope and Impact
+- **Understanding the Work**
+  - Specific tasks or operations impacted.
+  - Current processes and challenges.
+  - Expected improvements or changes from AI.
 
-- **Application Scope**
-  - Is the AI tool intended for private internal or public use?
+- **Intended Users and Operators**
+  - Internal CSA analysts, external volunteers, others.
+  - Individual or team usage.
+  - Usage modalities: interactive, batch processing, live meetings, guidance tool.
+  - Application scope: private internal or public use.
 
-## 3. AI Output Considerations
-- **What content or product will the AI produce?**
-- **Does the content need to be labeled as AI-generated?**
-- **Is the use of AI to generate or manipulate this content acceptable to the intended audience?**
+- **AI Output Considerations**
+  - Type of content,product or activity produced.
+  - AI-generated content labeling.
+  - Acceptability of AI-generated content to the audience.
 
-## 4. Problem Space Exploration
-Here we delve into the specifics of the problem you aim to solve or the process you wish to enhance with AI. Understanding the problem space is critical for identifying the most effective AI solutions.
+## 3. Technical Considerations
+- **AI Tool Evaluation**
+  - Evaluation of potential AI tools and technologies.
+  - Consideration of the current CSA AI toolkit and other suitable tools.
 
-## 5. AI Tool Evaluation
-This section focuses on evaluating potential AI tools and technologies that could be utilized in your project. Considerations include the current CSA AI toolkit and other suitable tools and techniques that complement your project's needs.
+- **Technology Stack and Infrastructure Requirements**
+  - Hardware and software requirements.
+  - **Expertise Needed for Development and Management**
+    - Skills and knowledge required to build, deploy, and manage AI technologies.
 
-## 6. Cost and Pricing Considerations
-- **How are the costs of providing the AI tool managed?**
-- **Is the pricing model linear, subscription-based, or otherwise?**
-- **Do users pay for the tool, or is it provided for free?**
-- **Consider the ongoing costs of these tools. Note that some solutions, like engineering a good prompt and publishing it, will essentially be free.**
+- **Integration with Existing Systems**
+  - Integration guidelines with IT infrastructure and business systems.
+  - Integration challenges and best practices.
 
-## 7. Planning and Documentation
-Guidance on planning your project's lifecycle, including financial sustainability and strategic management of AI tools. This section prompts you to think critically about how you will integrate and sustain AI technologies within your workflows.
+## 4. Project Management and Planning
+- **Cost and Pricing Considerations**
+  - Management of AI tool costs.
+  - Pricing model and user payment.
 
-## 8. Measuring Success and Key Performance Indicators (KPIs)
-- **How will you measure the project's success?**
-- **What KPIs will you use to validate the AI's output for accuracy and usefulness?**
+- **Planning and Documentation**
+  - Project lifecycle planning.
+  - Financial sustainability and strategic AI management.
 
-## 9. End of Life for the AI Tool
-- **Criteria for decommissioning the AI tool:**
-  - Availability of new or better AI technologies.
-  - Inadequate performance or utility.
+- **Risk Management and Mitigation Strategies**
+  - Identification of risks.
+  - Risk mitigation strategies.
+
+- **Regulatory Compliance and Standards**
+  - Industry standards and regulatory requirements.
+  - Compliance strategies.
+
+- **Change Management**
+  - Managing AI system changes.
+  - Impact assessment on users and processes.
+
+## 5. User Interaction and Support
+- **User Training and Support**
+  - Training plans for users.
+  - Support structures for troubleshooting.
+
+- **Stakeholder Engagement and Communication Plan**
+  - Key stakeholders identification.
+  - Communication strategies.
+
+## 6. Performance and Evaluation
+- **Measuring Success and Key Performance Indicators (KPIs)**
+  - Success metrics.
+  - KPIs for AI output validation.
+
+- **Testing and Validation Framework**
+  - Testing approach, including performance and security testing.
+  - Validation process for AI outputs.
+
+## 7. Ethical, Legal, and Societal Considerations
+- **AI Impact Considerations**
+  - Public facing aspects.
+  - Efficiency and return on investment.
+
+- **Ethical, Legal, and Societal Issues**
+  - Potential bias and ethical concerns.
+  - Legal and moral considerations.
+  - Data Privacy and Security Considerations.
+    - Data handling, storage, and processing guidelines.
+    - AI system security strategies.
+
+- **Overview of relevant industry standards and regulatory requirements that the AI project must comply with.**
+
+## 8. Sustainability and Future Planning
+- **End of Life for the AI Tool**
+  - Decommissioning criteria.
+
+- **Sustainability and Environmental Impact**
+  - Environmental impact considerations.
+  - Sustainability strategies.
+
+## 9. Documentation and Knowledge Management
+- **Documentation and Knowledge Management**
+  - Development process and operational procedures documentation.
+  - Knowledge management practices.
+
+## 10. Current Examples of the CSA AI Toolkit
+- Engineered and system prompts.
+- OpenAI GPT bot, RAG Bot.
+- Dedicated software using APIs.
+- Zapier automation.
 
 ## Conclusion
 Thank you for completing the Project Exploration Document. This structured approach ensures that all aspects of your AI project are thoroughly considered, from initial problem space exploration to strategic management and sustainable use of AI tools, including their eventual decommissioning.
