@@ -10,7 +10,6 @@
 ## RAG Bots
 * OpenAI My GPTs
 * CustomGPT.ai
-* fixie.ai
 
 ## Using APIs
 * software to use Claude / OpenAI APIs and other APIs (Google Docs and so on)
