@@ -21,6 +21,11 @@
 ## Training
 * Training decks, RAG Bots as tutors/mentors
 
+## Getting text information for the AI
+* SingleFile https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle save web page to a single file easily
+* Various custom scripts for headless chrome to dump the DOM/PDF of a web page
+* Various custom scripts to convert HTML/PDF/etc into Markdown
+
 # Building solutions overview
 
 Decide what to build, build it, log it in https://docs.google.com/spreadsheets/d/1-tOBliwR62TGcuh69tBQ7Rt8tF3YUm3BRHbjSnc9Gpg and ensuire the data is backed up for from a source that is backed up.
