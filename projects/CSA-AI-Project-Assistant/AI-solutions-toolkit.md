@@ -1,9 +1,15 @@
 # AI Solutions Toolkit at the CSA
 
+## Foundation Models
+* Anthropic Claude
+* Google Gemini
+* OpenAI ChatGPT
+
 ## Prompt Engineering
 * PromptPerfect.jina.ai
 
 ## Creating System Prompts
+* PrmptPerfect
 * CustomGPT.ai system prompt generator
 * OpenAI My GPTs
 
@@ -11,20 +17,24 @@
 * OpenAI My GPTs
 * CustomGPT.ai
 
-## Using APIs
-* software to use Claude / OpenAI APIs and other APIs (Google Docs and so on)
+## Using APIs for bulk queries/work
+* Anthropic Claude
+* Google Gemini
+* OpenAI ChatGPT
+* CustomGPT.ai
+* PromptPerfect
 
 ## Automation
 * Zapier + AI
 * OpenAI My GPTs with actions
 
-## Training
+## Training on tools, processes, workflows, techniques, etc.
 * Training decks, RAG Bots as tutors/mentors
 
 ## Getting text information for the AI
-* SingleFile https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle save web page to a single file easily
-* Various custom scripts for headless chrome to dump the DOM/PDF of a web page
-* Various custom scripts to convert HTML/PDF/etc into Markdown
+* Manual downloads, SingleFile, etc.
+* TODO: google chrome headless to PDF downloader/DOM Downloader service in a VM 
+* Various custom scripts to convert HTML/PDF/etc. into Markdown
 
 # Building solutions overview
 
@@ -32,7 +42,7 @@ Decide what to build, build it, log it in https://docs.google.com/spreadsheets/d
 
 # Information on specific technologies:
 
-
+TODO
 
 ## OpenAI My GPTs
 
@@ -58,7 +68,7 @@ Decide what to build, build it, log it in https://docs.google.com/spreadsheets/d
 
 ### Building instructions
 
-
+TODO
 
 ### Backup instructions
 
