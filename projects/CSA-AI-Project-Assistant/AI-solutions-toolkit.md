@@ -17,6 +17,12 @@
 * OpenAI My GPTs
 * CustomGPT.ai
 
+## Vendor specific AI
+
+We are generally not using these at this time (e.g. Google/Office365/Zendesk/etc.)
+
+* GitHub CoPilot (Dev team)
+
 ## Using APIs for bulk queries/work
 * Anthropic Claude
 * Google Gemini
